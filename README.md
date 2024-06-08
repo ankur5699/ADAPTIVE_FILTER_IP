@@ -6,7 +6,7 @@ Important files
 
 │   ├── floating_point_lms.py
 
-│   └── **signal_noise_model.py ** 
+│   └── **signal_noise_model.py** 
 
 
 ├── NLMS_IP
