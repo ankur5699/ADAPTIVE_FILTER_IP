@@ -1,0 +1,12 @@
+digraph "CFG for 'int const& std::min\<int\>' function" {
+	label="CFG for 'int const& std::min\<int\>' function";
+
+	Node0x3d6ae20 [shape=record,filename="",linenumber="",label="{entry.predFake}"];
+	Node0x3d6ae20 -> Node0x3ec0aa0[ callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" execusionnum="3200"];
+	Node0x3ec0aa0 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h",linenumber="200",label="{entry.succFake|{<s0>T|<s1>F}}"];
+	Node0x3ec0aa0:s0 -> Node0x3d6e410[label="W:3201" callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" execusionnum="3200"];
+	Node0x3ec0aa0:s1 -> Node0x3d6e410[label="W:1" callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" execusionnum="0"];
+	Node0x3d6e410 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h",linenumber="203",label="{return.predFake}"];
+	Node0x3d6e410 -> Node0x3ec0a50[ callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" execusionnum="3200"];
+	Node0x3ec0a50 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h",linenumber="203",label="{return.succFake}"];
+}

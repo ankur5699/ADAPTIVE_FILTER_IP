@@ -1,0 +1,44 @@
+digraph "CFG for 'ap_private\<65, true, false\>::RType\<64, true\>::logic ap_private\<65, true, false\>::operator&\<64, true\>' function" {
+	label="CFG for 'ap_private\<65, true, false\>::RType\<64, true\>::logic ap_private\<65, true, false\>::operator&\<64, true\>' function";
+
+	Node0x3bcba70 [shape=record,filename="",linenumber="",label="{entry.predFake}"];
+	Node0x3bcba70 -> Node0x3d657f0[ callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h" execusionnum="3200"];
+	Node0x3ebebe0 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h",linenumber="4100",label="{for.end.succFake|{<s0>T|<s1>F}}"];
+	Node0x3ebebe0:s0 -> Node0x3d65980[label="W:3201" callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h" execusionnum="3200"];
+	Node0x3ebebe0:s1 -> Node0x3d65c00[label="W:1"];
+	Node0x3ebfdb0 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h",linenumber="4100",label="{for.end16.succFake|{<s0>T|<s1>F}}"];
+	Node0x3ebfdb0:s0 -> Node0x3ebfe90[label="W:1" callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h" execusionnum="0"];
+	Node0x3ebfdb0:s1 -> Node0x3d65bb0[label="W:3201"];
+	Node0x3ebfe90 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h",linenumber="4100",label="{if.then18.succFake|{<s0>T|<s1>F}}"];
+	Node0x3ebfe90:s0 -> Node0x3d65b60;
+	Node0x3ebfe90:s1 -> Node0x3d65b60[ callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h" execusionnum="0"];
+	Node0x3d65b60 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h",linenumber="4100",label="{lor.end.predFake}"];
+	Node0x3d65b60 -> Node0x3d65bb0[ callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h" execusionnum="0"];
+	Node0x3d65bb0 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h",linenumber="4100",label="{if.end.predFake}"];
+	Node0x3d65bb0 -> Node0x3d65c00[ callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h" execusionnum="3200"];
+	Node0x3d65c00 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h",linenumber="4100",label="{if.end22.predFake}"];
+	Node0x3d65c00 -> Node0x3ec01e0[ callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h" execusionnum="0"];
+	Node0x3ec01e0 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h",linenumber="4100",label="{if.end22.succFake}"];
+subgraph cluster_0 {
+	label="if.then";
+	tripcount="3200";
+	invocationtime="3201";
+
+	Node0x3d65980 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h",linenumber="4100",label="{for.cond7.predFake}"];
+	Node0x3d65980 -> Node0x3ebfca0[ callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h" execusionnum="6400"];
+	Node0x3ebfca0 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h",linenumber="4100",label="{for.cond7.succFake|{<s0>T|<s1>F}}"];
+	Node0x3ebfca0:s0 -> Node0x3d65980[label="W:3201" callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h" execusionnum="3200"];
+	Node0x3ebfca0:s1 -> Node0x3ebfdb0[label="W:3201" callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h" execusionnum="3200"];
+}
+subgraph cluster_1 {
+	label="entry";
+	tripcount="3200";
+	invocationtime="3200";
+
+	Node0x3d657f0 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h",linenumber="4100",label="{for.cond.predFake}"];
+	Node0x3d657f0 -> Node0x3ebef90[ callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h" execusionnum="6400"];
+	Node0x3ebef90 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h",linenumber="4100",label="{for.cond.succFake|{<s0>T|<s1>F}}"];
+	Node0x3ebef90:s0 -> Node0x3d657f0[label="W:3201" callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h" execusionnum="3200"];
+	Node0x3ebef90:s1 -> Node0x3ebebe0[label="W:3201" callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h" execusionnum="3200"];
+}
+}

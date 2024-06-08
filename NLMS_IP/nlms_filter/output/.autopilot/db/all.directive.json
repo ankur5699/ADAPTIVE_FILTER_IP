@@ -1,0 +1,80 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "nlms_top",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "\/home\/ankur\/Desktop\/IDEX_work\/ADAPTIVE_FILTER_IP\/NLMS_IP\/nlms_filter\/output\/directives.tcl",
+          "sourceLine": "6",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "nlms_top"
+              }]
+          }
+        },
+        {
+          "functionName": "nlms_top",
+          "label": "nlms_top_label0",
+          "functionLabel": "",
+          "id": "2",
+          "sourceFile": "\/home\/ankur\/Desktop\/IDEX_work\/ADAPTIVE_FILTER_IP\/NLMS_IP\/nlms_filter\/output\/directives.tcl",
+          "sourceLine": "7",
+          "pragma": {
+            "name": "DEPENDENCE",
+            "option": [
+              {
+                "name": "inter",
+                "value": ""
+              },
+              {
+                "name": "false",
+                "value": ""
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "nlms_top",
+          "label": "nlms_top_label0",
+          "functionLabel": "",
+          "id": "3",
+          "sourceFile": "\/home\/ankur\/Desktop\/IDEX_work\/ADAPTIVE_FILTER_IP\/NLMS_IP\/nlms_filter\/output\/directives.tcl",
+          "sourceLine": "8",
+          "pragma": {
+            "name": "PIPELINE",
+            "option": [{
+                "name": "off",
+                "value": ""
+              }]
+          }
+        },
+        {
+          "functionName": "nlms_top",
+          "label": "nlms_top_label0",
+          "functionLabel": "",
+          "id": "4",
+          "sourceFile": "\/home\/ankur\/Desktop\/IDEX_work\/ADAPTIVE_FILTER_IP\/NLMS_IP\/nlms_filter\/output\/directives.tcl",
+          "sourceLine": "9",
+          "pragma": {"name": "LOOP_FLATTEN"}
+        },
+        {
+          "functionName": "nlms_top",
+          "label": "",
+          "functionLabel": "",
+          "id": "5",
+          "sourceFile": "\/home\/ankur\/Desktop\/IDEX_work\/ADAPTIVE_FILTER_IP\/NLMS_IP\/nlms_filter\/output\/csynth.tcl",
+          "sourceLine": "15",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "nlms_top"
+              }]
+          }
+        }
+      ]
+    }]}

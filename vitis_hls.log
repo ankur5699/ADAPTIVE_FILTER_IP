@@ -1,0 +1,27 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2022.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'ankur' on host 'ankur-Legion-5-15ACH6' (Linux_x86_64 version 6.5.0-28-generic) on Fri May 17 23:59:27 IST 2024
+INFO: [HLS 200-10] On os Ubuntu 22.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP'
+Sourcing Tcl script 'run_sim.tcl'
+INFO: [HLS 200-1510] Running: source run_sim.tcl
+run_sim.tcl can't be opened.
+couldn't read file "run_sim.tcl": no such file or directory
+    while executing
+"source run_sim.tcl"
+    invoked from within
+"hls::main run_sim.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$newargs"
+    (procedure "hls_proc" line 16)
+    invoked from within
+"hls_proc [info nameofexecutable] $argv"
+INFO: [HLS 200-112] Total CPU user time: 0.14 seconds. Total CPU system time: 0.03 seconds. Total elapsed time: 0.17 seconds; peak allocated memory: 19.305 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Fri May 17 23:59:27 2024...
