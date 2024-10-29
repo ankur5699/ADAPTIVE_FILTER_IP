@@ -5,8 +5,8 @@
 ############################################################
 open_project nlms_filter
 set_top nlms_top
-add_files nlms_filter/top.hpp
 add_files nlms_filter/top.cpp
+add_files nlms_filter/top.hpp
 add_files -tb nlms_filter/main.cpp -cflags "-Wno-unknown-pragmas" -csimflags "-Wno-unknown-pragmas"
 open_solution "output" -flow_target vivado
 set_part {xc7s50-ftgb196-1}

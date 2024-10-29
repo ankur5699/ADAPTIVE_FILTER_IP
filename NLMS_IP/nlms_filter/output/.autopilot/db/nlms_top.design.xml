@@ -14,28 +14,28 @@
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.00</TargetClockPeriod>
-<ClockUncertainty>2.70</ClockUncertainty>
-<EstimatedClockPeriod>6.826</EstimatedClockPeriod>
+<TargetClockPeriod>8.00</TargetClockPeriod>
+<ClockUncertainty>2.16</ClockUncertainty>
+<EstimatedClockPeriod>5.784</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>1380</Best-caseLatency>
-<Average-caseLatency>1380</Average-caseLatency>
-<Worst-caseLatency>1380</Worst-caseLatency>
-<Best-caseRealTimeLatency>13.800 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>13.800 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>13.800 us</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>1381</PipelineInitiationInterval>
+<Best-caseLatency>1383</Best-caseLatency>
+<Average-caseLatency>1383</Average-caseLatency>
+<Worst-caseLatency>1383</Worst-caseLatency>
+<Best-caseRealTimeLatency>11.064 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>11.064 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>11.064 us</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>1384</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <nlms_outer_loop_nlms_inner_loop>
 <Name>nlms_outer_loop_nlms_inner_loop</Name>
 <TripCount>1280</TripCount>
-<Latency>1378</Latency>
-<AbsoluteTimeLatency>13.780 us</AbsoluteTimeLatency>
+<Latency>1381</Latency>
+<AbsoluteTimeLatency>11.048 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
-<PipelineDepth>100</PipelineDepth>
+<PipelineDepth>103</PipelineDepth>
 <PipelineType>yes</PipelineType>
 <InstanceList>
 </InstanceList>
@@ -47,10 +47,10 @@
 <DSP>36</DSP>
 <AVAIL_DSP>120</AVAIL_DSP>
 <UTIL_DSP>30</UTIL_DSP>
-<FF>3999</FF>
+<FF>4113</FF>
 <AVAIL_FF>65200</AVAIL_FF>
 <UTIL_FF>6</UTIL_FF>
-<LUT>2612</LUT>
+<LUT>2685</LUT>
 <AVAIL_LUT>32600</AVAIL_LUT>
 <UTIL_LUT>8</UTIL_LUT>
 <BRAM_18K>0</BRAM_18K>

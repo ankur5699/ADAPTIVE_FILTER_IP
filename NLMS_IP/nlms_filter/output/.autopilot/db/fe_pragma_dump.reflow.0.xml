@@ -1,4 +1,4 @@
 <pragmas>
-<pragma file="nlms_filter/top.cpp" line="70" pragmaType="pipeline" parentfunction="nlms_top" off="1" ii="0" rewind="0" style=""/>
-<pragma file="nlms_filter/top.cpp" line="72" pragmaType="pipeline" parentfunction="nlms_top" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="nlms_filter/top.cpp" line="60" pragmaType="pipeline" parentfunction="nlms_top" off="1" ii="0" rewind="0" style=""/>
+<pragma file="nlms_filter/top.cpp" line="62" pragmaType="pipeline" parentfunction="nlms_top" off="0" ii="-1" rewind="0" style=""/>
 </pragmas>

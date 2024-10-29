@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'nlms_top'" level="0">
-<item name = "Date">Mon May 20 17:38:43 2024
+<item name = "Date">Mon Oct 28 16:23:29 2024
 </item>
 <item name = "Version">2022.1 (Build 3526262 on Mon Apr 18 15:47:01 MDT 2022)</item>
 <item name = "Project">nlms_filter</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 6.826 ns, 2.70 ns</column>
+<column name="ap_clk">8.00 ns, 5.784 ns, 2.16 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">1380, 1380, 13.800 us, 13.800 us, 1381, 1381, no</column>
+<column name="">1383, 1383, 11.064 us, 11.064 us, 1384, 1384, no</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- nlms_outer_loop_nlms_inner_loop">1378, 1378, 100, 1, 1, 1280, yes</column>
+<column name="- nlms_outer_loop_nlms_inner_loop">1381, 1381, 103, 1, 1, 1280, yes</column>
 </table>
 </item>
 </section>
@@ -50,10 +50,10 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, 0, 67, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">-, 36, 2646, 2363, -</column>
+<column name="Instance">-, 36, 2746, 2430, -</column>
 <column name="Memory">-, -, -, -, -</column>
-<column name="Multiplexer">-, -, -, 54, -</column>
-<column name="Register">-, -, 1353, 128, -</column>
+<column name="Multiplexer">-, -, -, 60, -</column>
+<column name="Register">-, -, 1367, 128, -</column>
 <specialColumn name="Available">150, 120, 65200, 32600, 0</specialColumn>
 <specialColumn name="Utilization (%)">0, 30, 6, 8, 0</specialColumn>
 </table>
@@ -65,8 +65,8 @@
 <column name="dadd_64ns_64ns_64_8_full_dsp_1_U9">dadd_64ns_64ns_64_8_full_dsp_1, 0, 3, 685, 708, 0</column>
 <column name="dadd_64ns_64ns_64_8_full_dsp_1_U10">dadd_64ns_64ns_64_8_full_dsp_1, 0, 3, 685, 708, 0</column>
 <column name="ddiv_64ns_64ns_64_59_no_dsp_1_U13">ddiv_64ns_64ns_64_59_no_dsp_1, 0, 0, 0, 0, 0</column>
-<column name="dmul_64ns_64ns_64_7_max_dsp_1_U11">dmul_64ns_64ns_64_7_max_dsp_1, 0, 11, 342, 218, 0</column>
-<column name="dmul_64ns_64ns_64_7_max_dsp_1_U12">dmul_64ns_64ns_64_7_max_dsp_1, 0, 11, 342, 218, 0</column>
+<column name="dmul_64ns_64ns_64_8_max_dsp_1_U11">dmul_64ns_64ns_64_8_max_dsp_1, 0, 11, 397, 246, 0</column>
+<column name="dmul_64ns_64ns_64_8_max_dsp_1_U12">dmul_64ns_64ns_64_8_max_dsp_1, 0, 11, 397, 246, 0</column>
 <column name="fmul_32ns_32ns_32_4_max_dsp_1_U2">fmul_32ns_32ns_32_4_max_dsp_1, 0, 3, 143, 140, 0</column>
 <column name="fmul_32ns_32ns_32_4_max_dsp_1_U3">fmul_32ns_32ns_32_4_max_dsp_1, 0, 3, 143, 140, 0</column>
 <column name="fpext_32ns_64_2_no_dsp_1_U5">fpext_32ns_64_2_no_dsp_1, 0, 0, 0, 0, 0</column>
@@ -74,7 +74,7 @@
 <column name="fpext_32ns_64_2_no_dsp_1_U7">fpext_32ns_64_2_no_dsp_1, 0, 0, 0, 0, 0</column>
 <column name="fpext_32ns_64_2_no_dsp_1_U8">fpext_32ns_64_2_no_dsp_1, 0, 0, 0, 0, 0</column>
 <column name="fptrunc_64ns_32_2_no_dsp_1_U4">fptrunc_64ns_32_2_no_dsp_1, 0, 0, 0, 0, 0</column>
-<column name="fsub_32ns_32ns_32_7_full_dsp_1_U1">fsub_32ns_32ns_32_7_full_dsp_1, 0, 2, 306, 231, 0</column>
+<column name="fsub_32ns_32ns_32_8_full_dsp_1_U1">fsub_32ns_32ns_32_8_full_dsp_1, 0, 2, 296, 242, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -91,12 +91,12 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="add_ln69_fu_173_p2">+, 0, 0, 18, 11, 1</column>
-<column name="add_ln71_fu_201_p2">+, 0, 0, 15, 8, 1</column>
-<column name="ap_condition_952">and, 0, 0, 2, 1, 1</column>
-<column name="icmp_ln69_fu_167_p2">icmp, 0, 0, 11, 11, 11</column>
-<column name="icmp_ln71_fu_182_p2">icmp, 0, 0, 11, 8, 9</column>
-<column name="select_ln69_fu_188_p3">select, 0, 0, 8, 1, 1</column>
+<column name="add_ln59_fu_173_p2">+, 0, 0, 18, 11, 1</column>
+<column name="add_ln61_fu_205_p2">+, 0, 0, 15, 8, 1</column>
+<column name="ap_condition_982">and, 0, 0, 2, 1, 1</column>
+<column name="icmp_ln59_fu_167_p2">icmp, 0, 0, 11, 11, 11</column>
+<column name="icmp_ln61_fu_182_p2">icmp, 0, 0, 11, 8, 9</column>
+<column name="select_ln59_fu_188_p3">select, 0, 0, 8, 1, 1</column>
 <column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
 </table>
 </item>
@@ -104,7 +104,7 @@
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
 <column name="ap_done_int">9, 2, 1, 2</column>
 <column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
-<column name="ap_sig_allocacmp_i_load">9, 2, 8, 16</column>
+<column name="ap_sig_allocacmp_i_load">15, 3, 8, 24</column>
 <column name="ap_sig_allocacmp_indvar_flatten_load">9, 2, 11, 22</column>
 <column name="i_fu_54">9, 2, 8, 16</column>
 <column name="indvar_flatten_fu_58">9, 2, 11, 22</column>
@@ -112,12 +112,15 @@
 </item>
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
-<column name="add1_reg_363">64, 0, 64, 0</column>
-<column name="add_reg_286">64, 0, 64, 0</column>
+<column name="add1_reg_367">64, 0, 64, 0</column>
+<column name="add_reg_290">64, 0, 64, 0</column>
 <column name="ap_CS_fsm">1, 0, 1, 0</column>
 <column name="ap_done_reg">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter10">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter100">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter101">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter102">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter11">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter12">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter13">1, 0, 1, 0</column>
@@ -215,6 +218,8 @@
 <column name="ap_enable_reg_pp0_iter97">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter98">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter99">1, 0, 1, 0</column>
+<column name="ap_loop_exit_ready_pp0_iter100_reg">1, 0, 1, 0</column>
+<column name="ap_loop_exit_ready_pp0_iter101_reg">1, 0, 1, 0</column>
 <column name="ap_loop_exit_ready_pp0_iter10_reg">1, 0, 1, 0</column>
 <column name="ap_loop_exit_ready_pp0_iter11_reg">1, 0, 1, 0</column>
 <column name="ap_loop_exit_ready_pp0_iter12_reg">1, 0, 1, 0</column>
@@ -312,31 +317,33 @@
 <column name="ap_loop_exit_ready_pp0_iter96_reg">1, 0, 1, 0</column>
 <column name="ap_loop_exit_ready_pp0_iter97_reg">1, 0, 1, 0</column>
 <column name="ap_loop_exit_ready_pp0_iter98_reg">1, 0, 1, 0</column>
+<column name="ap_loop_exit_ready_pp0_iter99_reg">1, 0, 1, 0</column>
 <column name="ap_loop_exit_ready_pp0_iter9_reg">1, 0, 1, 0</column>
-<column name="bitcast_ln73_1_reg_268">32, 0, 32, 0</column>
-<column name="bitcast_ln73_reg_302">32, 0, 32, 0</column>
-<column name="conv1_reg_281">64, 0, 64, 0</column>
-<column name="conv2_reg_333">64, 0, 64, 0</column>
-<column name="conv3_reg_348">64, 0, 64, 0</column>
-<column name="conv4_reg_368">32, 0, 32, 0</column>
-<column name="conv_reg_353">64, 0, 64, 0</column>
-<column name="desired_signal_load_reg_318">32, 0, 32, 0</column>
-<column name="div_reg_328">64, 0, 64, 0</column>
-<column name="error_reg_338">32, 0, 32, 0</column>
-<column name="estimation_reg_313">32, 0, 32, 0</column>
+<column name="bitcast_ln63_1_reg_272">32, 0, 32, 0</column>
+<column name="bitcast_ln63_reg_306">32, 0, 32, 0</column>
+<column name="conv1_reg_285">64, 0, 64, 0</column>
+<column name="conv2_reg_337">64, 0, 64, 0</column>
+<column name="conv3_reg_352">64, 0, 64, 0</column>
+<column name="conv4_reg_372">32, 0, 32, 0</column>
+<column name="conv_reg_357">64, 0, 64, 0</column>
+<column name="desired_signal_load_reg_322">32, 0, 32, 0</column>
+<column name="div_reg_332">64, 0, 64, 0</column>
+<column name="error_reg_342">32, 0, 32, 0</column>
+<column name="estimation_reg_317">32, 0, 32, 0</column>
 <column name="i_fu_54">8, 0, 8, 0</column>
 <column name="indvar_flatten_fu_58">11, 0, 11, 0</column>
-<column name="input_signal_load_reg_263">32, 0, 32, 0</column>
-<column name="mul1_reg_343">64, 0, 64, 0</column>
-<column name="mul2_reg_358">64, 0, 64, 0</column>
-<column name="mul_reg_276">32, 0, 32, 0</column>
-<column name="weights_addr_reg_291">7, 0, 7, 0</column>
-<column name="weights_load_reg_297">32, 0, 32, 0</column>
-<column name="zext_ln71_reg_252">8, 0, 64, 56</column>
-<column name="bitcast_ln73_1_reg_268">64, 32, 32, 0</column>
-<column name="bitcast_ln73_reg_302">64, 32, 32, 0</column>
-<column name="weights_addr_reg_291">64, 32, 7, 0</column>
-<column name="zext_ln71_reg_252">64, 32, 64, 56</column>
+<column name="input_signal_load_reg_267">32, 0, 32, 0</column>
+<column name="mul1_reg_347">64, 0, 64, 0</column>
+<column name="mul2_reg_362">64, 0, 64, 0</column>
+<column name="mul_reg_280">32, 0, 32, 0</column>
+<column name="select_ln59_reg_250">8, 0, 8, 0</column>
+<column name="weights_addr_reg_295">7, 0, 7, 0</column>
+<column name="weights_load_reg_301">32, 0, 32, 0</column>
+<column name="zext_ln61_reg_256">8, 0, 64, 56</column>
+<column name="bitcast_ln63_1_reg_272">64, 32, 32, 0</column>
+<column name="bitcast_ln63_reg_306">64, 32, 32, 0</column>
+<column name="weights_addr_reg_295">64, 32, 7, 0</column>
+<column name="zext_ln61_reg_256">64, 32, 64, 56</column>
 </table>
 </item>
 </section>

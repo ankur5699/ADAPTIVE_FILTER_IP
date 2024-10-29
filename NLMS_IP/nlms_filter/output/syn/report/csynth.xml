@@ -7,34 +7,34 @@
         <ProductFamily>spartan7</ProductFamily>
         <Part>xc7s50-ftgb196-1</Part>
         <TopModelName>nlms_top</TopModelName>
-        <TargetClockPeriod>10.00</TargetClockPeriod>
-        <ClockUncertainty>2.70</ClockUncertainty>
+        <TargetClockPeriod>8.00</TargetClockPeriod>
+        <ClockUncertainty>2.16</ClockUncertainty>
         <FlowTarget>vivado</FlowTarget>
     </UserAssignments>
     <PerformanceEstimates>
         <PipelineType>no</PipelineType>
         <SummaryOfTimingAnalysis>
             <unit>ns</unit>
-            <EstimatedClockPeriod>6.826</EstimatedClockPeriod>
+            <EstimatedClockPeriod>5.784</EstimatedClockPeriod>
         </SummaryOfTimingAnalysis>
         <SummaryOfOverallLatency>
             <unit>clock cycles</unit>
-            <Best-caseLatency>1380</Best-caseLatency>
-            <Average-caseLatency>1380</Average-caseLatency>
-            <Worst-caseLatency>1380</Worst-caseLatency>
-            <Best-caseRealTimeLatency>13.800 us</Best-caseRealTimeLatency>
-            <Average-caseRealTimeLatency>13.800 us</Average-caseRealTimeLatency>
-            <Worst-caseRealTimeLatency>13.800 us</Worst-caseRealTimeLatency>
-            <Interval-min>1381</Interval-min>
-            <Interval-max>1381</Interval-max>
+            <Best-caseLatency>1383</Best-caseLatency>
+            <Average-caseLatency>1383</Average-caseLatency>
+            <Worst-caseLatency>1383</Worst-caseLatency>
+            <Best-caseRealTimeLatency>11.064 us</Best-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>11.064 us</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>11.064 us</Worst-caseRealTimeLatency>
+            <Interval-min>1384</Interval-min>
+            <Interval-max>1384</Interval-max>
         </SummaryOfOverallLatency>
         <SummaryOfLoopLatency>
             <nlms_outer_loop_nlms_inner_loop>
                 <TripCount>1280</TripCount>
-                <Latency>1378</Latency>
-                <AbsoluteTimeLatency>13780</AbsoluteTimeLatency>
+                <Latency>1381</Latency>
+                <AbsoluteTimeLatency>11048</AbsoluteTimeLatency>
                 <PipelineII>1</PipelineII>
-                <PipelineDepth>100</PipelineDepth>
+                <PipelineDepth>103</PipelineDepth>
                 <InstanceList/>
             </nlms_outer_loop_nlms_inner_loop>
         </SummaryOfLoopLatency>
@@ -42,8 +42,8 @@
     <AreaEstimates>
         <Resources>
             <DSP>36</DSP>
-            <FF>3999</FF>
-            <LUT>2612</LUT>
+            <FF>4113</FF>
+            <LUT>2685</LUT>
             <BRAM_18K>0</BRAM_18K>
             <URAM>0</URAM>
         </Resources>
@@ -282,7 +282,7 @@
     <RTLDesignHierarchy>
         <TopModule MAX_DEPTH="2">
             <ModuleName>nlms_top</ModuleName>
-            <BindInstances>add_ln69_fu_173_p2 fmul_32ns_32ns_32_4_max_dsp_1_U3 fsub_32ns_32ns_32_7_full_dsp_1_U1 fmul_32ns_32ns_32_4_max_dsp_1_U2 dadd_64ns_64ns_64_8_full_dsp_1_U9 ddiv_64ns_64ns_64_59_no_dsp_1_U13 dmul_64ns_64ns_64_7_max_dsp_1_U11 dmul_64ns_64ns_64_7_max_dsp_1_U12 dadd_64ns_64ns_64_8_full_dsp_1_U10 add_ln71_fu_201_p2</BindInstances>
+            <BindInstances>add_ln59_fu_173_p2 fmul_32ns_32ns_32_4_max_dsp_1_U3 fsub_32ns_32ns_32_8_full_dsp_1_U1 fmul_32ns_32ns_32_4_max_dsp_1_U2 dadd_64ns_64ns_64_8_full_dsp_1_U9 ddiv_64ns_64ns_64_59_no_dsp_1_U13 dmul_64ns_64ns_64_8_max_dsp_1_U11 dmul_64ns_64ns_64_8_max_dsp_1_U12 dadd_64ns_64ns_64_8_full_dsp_1_U10 add_ln61_fu_205_p2</BindInstances>
         </TopModule>
     </RTLDesignHierarchy>
     <ModuleInformation>
@@ -293,28 +293,28 @@
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
-                    <TargetClockPeriod>10.00</TargetClockPeriod>
-                    <ClockUncertainty>2.70</ClockUncertainty>
-                    <EstimatedClockPeriod>6.826</EstimatedClockPeriod>
+                    <TargetClockPeriod>8.00</TargetClockPeriod>
+                    <ClockUncertainty>2.16</ClockUncertainty>
+                    <EstimatedClockPeriod>5.784</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
-                    <Best-caseLatency>1380</Best-caseLatency>
-                    <Average-caseLatency>1380</Average-caseLatency>
-                    <Worst-caseLatency>1380</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>13.800 us</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>13.800 us</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>13.800 us</Worst-caseRealTimeLatency>
-                    <PipelineInitiationInterval>1381</PipelineInitiationInterval>
+                    <Best-caseLatency>1383</Best-caseLatency>
+                    <Average-caseLatency>1383</Average-caseLatency>
+                    <Worst-caseLatency>1383</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>11.064 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>11.064 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>11.064 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>1384</PipelineInitiationInterval>
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
                     <nlms_outer_loop_nlms_inner_loop>
                         <Name>nlms_outer_loop_nlms_inner_loop</Name>
                         <TripCount>1280</TripCount>
-                        <Latency>1378</Latency>
-                        <AbsoluteTimeLatency>13.780 us</AbsoluteTimeLatency>
+                        <Latency>1381</Latency>
+                        <AbsoluteTimeLatency>11.048 us</AbsoluteTimeLatency>
                         <PipelineII>1</PipelineII>
-                        <PipelineDepth>100</PipelineDepth>
+                        <PipelineDepth>103</PipelineDepth>
                         <PipelineType>yes</PipelineType>
                         <InstanceList/>
                     </nlms_outer_loop_nlms_inner_loop>
@@ -325,10 +325,10 @@
                     <DSP>36</DSP>
                     <AVAIL_DSP>120</AVAIL_DSP>
                     <UTIL_DSP>30</UTIL_DSP>
-                    <FF>3999</FF>
+                    <FF>4113</FF>
                     <AVAIL_FF>65200</AVAIL_FF>
                     <UTIL_FF>6</UTIL_FF>
-                    <LUT>2612</LUT>
+                    <LUT>2685</LUT>
                     <AVAIL_LUT>32600</AVAIL_LUT>
                     <UTIL_LUT>8</UTIL_LUT>
                     <BRAM_18K>0</BRAM_18K>
@@ -340,16 +340,16 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln69_fu_173_p2" SOURCE="nlms_filter/top.cpp:69" URAM="0" VARIABLE="add_ln69"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fmul" DSP="3" ID="" IMPL="maxdsp" LATENCY="3" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="fmul" PRAGMA="" RTLNAME="fmul_32ns_32ns_32_4_max_dsp_1_U3" SOURCE="nlms_filter/top.cpp:73" URAM="0" VARIABLE="estimation"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fsub" DSP="2" ID="" IMPL="fulldsp" LATENCY="6" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="fsub" PRAGMA="" RTLNAME="fsub_32ns_32ns_32_7_full_dsp_1_U1" SOURCE="nlms_filter/top.cpp:74" URAM="0" VARIABLE="error"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fmul" DSP="3" ID="" IMPL="maxdsp" LATENCY="3" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="fmul" PRAGMA="" RTLNAME="fmul_32ns_32ns_32_4_max_dsp_1_U2" SOURCE="nlms_filter/top.cpp:75" URAM="0" VARIABLE="mul"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op dadd" DSP="3" ID="" IMPL="fulldsp" LATENCY="7" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="dadd" PRAGMA="" RTLNAME="dadd_64ns_64ns_64_8_full_dsp_1_U9" SOURCE="nlms_filter/top.cpp:75" URAM="0" VARIABLE="add"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op ddiv" DSP="0" ID="" IMPL="fabric" LATENCY="58" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="ddiv" PRAGMA="" RTLNAME="ddiv_64ns_64ns_64_59_no_dsp_1_U13" SOURCE="nlms_filter/top.cpp:75" URAM="0" VARIABLE="div"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op dmul" DSP="11" ID="" IMPL="maxdsp" LATENCY="6" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="dmul" PRAGMA="" RTLNAME="dmul_64ns_64ns_64_7_max_dsp_1_U11" SOURCE="nlms_filter/top.cpp:75" URAM="0" VARIABLE="mul1"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op dmul" DSP="11" ID="" IMPL="maxdsp" LATENCY="6" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="dmul" PRAGMA="" RTLNAME="dmul_64ns_64ns_64_7_max_dsp_1_U12" SOURCE="nlms_filter/top.cpp:75" URAM="0" VARIABLE="mul2"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op dadd" DSP="3" ID="" IMPL="fulldsp" LATENCY="7" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="dadd" PRAGMA="" RTLNAME="dadd_64ns_64ns_64_8_full_dsp_1_U10" SOURCE="nlms_filter/top.cpp:75" URAM="0" VARIABLE="add1"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln71_fu_201_p2" SOURCE="nlms_filter/top.cpp:71" URAM="0" VARIABLE="add_ln71"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln59_fu_173_p2" SOURCE="nlms_filter/top.cpp:59" URAM="0" VARIABLE="add_ln59"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fmul" DSP="3" ID="" IMPL="maxdsp" LATENCY="3" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="fmul" PRAGMA="" RTLNAME="fmul_32ns_32ns_32_4_max_dsp_1_U3" SOURCE="nlms_filter/top.cpp:63" URAM="0" VARIABLE="estimation"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fsub" DSP="2" ID="" IMPL="fulldsp" LATENCY="7" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="fsub" PRAGMA="" RTLNAME="fsub_32ns_32ns_32_8_full_dsp_1_U1" SOURCE="nlms_filter/top.cpp:64" URAM="0" VARIABLE="error"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fmul" DSP="3" ID="" IMPL="maxdsp" LATENCY="3" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="fmul" PRAGMA="" RTLNAME="fmul_32ns_32ns_32_4_max_dsp_1_U2" SOURCE="nlms_filter/top.cpp:65" URAM="0" VARIABLE="mul"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op dadd" DSP="3" ID="" IMPL="fulldsp" LATENCY="7" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="dadd" PRAGMA="" RTLNAME="dadd_64ns_64ns_64_8_full_dsp_1_U9" SOURCE="nlms_filter/top.cpp:65" URAM="0" VARIABLE="add"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op ddiv" DSP="0" ID="" IMPL="fabric" LATENCY="58" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="ddiv" PRAGMA="" RTLNAME="ddiv_64ns_64ns_64_59_no_dsp_1_U13" SOURCE="nlms_filter/top.cpp:65" URAM="0" VARIABLE="div"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op dmul" DSP="11" ID="" IMPL="maxdsp" LATENCY="7" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="dmul" PRAGMA="" RTLNAME="dmul_64ns_64ns_64_8_max_dsp_1_U11" SOURCE="nlms_filter/top.cpp:65" URAM="0" VARIABLE="mul1"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op dmul" DSP="11" ID="" IMPL="maxdsp" LATENCY="7" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="dmul" PRAGMA="" RTLNAME="dmul_64ns_64ns_64_8_max_dsp_1_U12" SOURCE="nlms_filter/top.cpp:65" URAM="0" VARIABLE="mul2"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op dadd" DSP="3" ID="" IMPL="fulldsp" LATENCY="7" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="dadd" PRAGMA="" RTLNAME="dadd_64ns_64ns_64_8_full_dsp_1_U10" SOURCE="nlms_filter/top.cpp:65" URAM="0" VARIABLE="add1"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="nlms_outer_loop_nlms_inner_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln61_fu_205_p2" SOURCE="nlms_filter/top.cpp:61" URAM="0" VARIABLE="add_ln61"/>
             </BindNodes>
         </Module>
     </ModuleInformation>
@@ -599,9 +599,9 @@
         </section>
     </ReportSWInterface>
     <PragmaReport>
-        <Pragma type="top" location="nlms_filter/top.cpp:61" status="valid" parentFunction="nlms_top" variable="" isDirective="0" options="name=nlms_top"/>
-        <Pragma type="pipeline" location="nlms_filter/top.cpp:70" status="valid" parentFunction="nlms_top" variable="" isDirective="0" options="off"/>
-        <Pragma type="pipeline" location="nlms_filter/top.cpp:72" status="valid" parentFunction="nlms_top" variable="" isDirective="0" options=""/>
+        <Pragma type="top" location="nlms_filter/top.cpp:51" status="valid" parentFunction="nlms_top" variable="" isDirective="0" options="name=nlms_top"/>
+        <Pragma type="pipeline" location="nlms_filter/top.cpp:60" status="valid" parentFunction="nlms_top" variable="" isDirective="0" options="off"/>
+        <Pragma type="pipeline" location="nlms_filter/top.cpp:62" status="valid" parentFunction="nlms_top" variable="" isDirective="0" options=""/>
     </PragmaReport>
 </profile>
 

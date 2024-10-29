@@ -19,6 +19,11 @@
         <directive functionName="nlms_top" label="nlms_top_label0" functionLabel="">
             <pragma name="LOOP_FLATTEN"/>
         </directive>
+        <directive functionName="nlms_top" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="nlms_top"/>
+            </pragma>
+        </directive>
     </sourceFile>
 </AutoPilot:ProjectResources>
 

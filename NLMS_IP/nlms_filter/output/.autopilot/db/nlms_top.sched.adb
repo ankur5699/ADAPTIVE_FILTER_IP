@@ -34,7 +34,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>514694160</coreId>
+						<coreId>1387095872</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -70,7 +70,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>54</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -106,7 +106,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1374600656</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -146,7 +146,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>514694160</coreId>
+						<coreId>1387095872</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -188,7 +188,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>514694160</coreId>
+						<coreId>1387095872</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>11</bitwidth>
@@ -212,10 +212,10 @@
 					<Obj>
 						<type>0</type>
 						<id>13</id>
-						<name>indvar_flatten_write_ln69</name>
+						<name>indvar_flatten_write_ln59</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>69</lineNumber>
+						<lineNumber>59</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -231,7 +231,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>69</second>
+										<second>59</second>
 									</item>
 								</second>
 							</item>
@@ -244,7 +244,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3344699613</coreId>
+						<coreId>1953459305</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -269,10 +269,10 @@
 					<Obj>
 						<type>0</type>
 						<id>14</id>
-						<name>i_write_ln69</name>
+						<name>i_write_ln59</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>69</lineNumber>
+						<lineNumber>59</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -288,7 +288,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>69</second>
+										<second>59</second>
 									</item>
 								</second>
 							</item>
@@ -326,10 +326,10 @@
 					<Obj>
 						<type>0</type>
 						<id>15</id>
-						<name>br_ln69</name>
+						<name>br_ln59</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>69</lineNumber>
+						<lineNumber>59</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -345,7 +345,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>69</second>
+										<second>59</second>
 									</item>
 								</second>
 							</item>
@@ -385,7 +385,7 @@
 						<name>indvar_flatten_load</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>69</lineNumber>
+						<lineNumber>59</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -401,7 +401,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>69</second>
+										<second>59</second>
 									</item>
 								</second>
 							</item>
@@ -414,7 +414,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>514710432</coreId>
+						<coreId>128</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>11</bitwidth>
@@ -439,10 +439,10 @@
 					<Obj>
 						<type>0</type>
 						<id>18</id>
-						<name>icmp_ln69</name>
+						<name>icmp_ln59</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>69</lineNumber>
+						<lineNumber>59</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -458,7 +458,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>69</second>
+										<second>59</second>
 									</item>
 								</second>
 							</item>
@@ -471,7 +471,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>514620576</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -496,10 +496,10 @@
 					<Obj>
 						<type>0</type>
 						<id>19</id>
-						<name>add_ln69</name>
+						<name>add_ln59</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>69</lineNumber>
+						<lineNumber>59</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -515,7 +515,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>69</second>
+										<second>59</second>
 									</item>
 								</second>
 							</item>
@@ -528,7 +528,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1330007625</coreId>
+						<coreId>1296846383</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>11</bitwidth>
@@ -553,10 +553,10 @@
 					<Obj>
 						<type>0</type>
 						<id>20</id>
-						<name>br_ln69</name>
+						<name>br_ln59</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>69</lineNumber>
+						<lineNumber>59</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -572,7 +572,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>69</second>
+										<second>59</second>
 									</item>
 								</second>
 							</item>
@@ -585,7 +585,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>514710432</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -614,7 +614,7 @@
 						<name>i_load</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>71</lineNumber>
+						<lineNumber>61</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -630,7 +630,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>71</second>
+										<second>61</second>
 									</item>
 								</second>
 							</item>
@@ -643,7 +643,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1296846383</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -668,10 +668,10 @@
 					<Obj>
 						<type>0</type>
 						<id>25</id>
-						<name>icmp_ln71</name>
+						<name>icmp_ln61</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>71</lineNumber>
+						<lineNumber>61</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -687,7 +687,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>71</second>
+										<second>61</second>
 									</item>
 								</second>
 							</item>
@@ -700,7 +700,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3317735095</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -725,10 +725,10 @@
 					<Obj>
 						<type>0</type>
 						<id>26</id>
-						<name>select_ln69</name>
+						<name>select_ln59</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>69</lineNumber>
+						<lineNumber>59</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -744,7 +744,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>69</second>
+										<second>59</second>
 									</item>
 								</second>
 							</item>
@@ -757,7 +757,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1914708526</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -783,10 +783,10 @@
 					<Obj>
 						<type>0</type>
 						<id>27</id>
-						<name>zext_ln71</name>
+						<name>zext_ln61</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>71</lineNumber>
+						<lineNumber>61</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -802,7 +802,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>71</second>
+										<second>61</second>
 									</item>
 								</second>
 							</item>
@@ -815,7 +815,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>514947488</coreId>
+						<coreId>997420912</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -831,7 +831,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>13</m_topoIndex>
+				<m_topoIndex>14</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_17">
@@ -842,7 +842,7 @@
 						<name>weights_addr</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>73</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -858,7 +858,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>73</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -871,7 +871,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>514948072</coreId>
+						<coreId>1836008224</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -900,7 +900,7 @@
 						<name>weights_load</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>73</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -916,7 +916,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>73</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -929,7 +929,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1629909103</coreId>
+						<coreId>1881154127</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -953,10 +953,10 @@
 					<Obj>
 						<type>0</type>
 						<id>32</id>
-						<name>bitcast_ln73</name>
+						<name>bitcast_ln63</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>73</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -972,7 +972,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>73</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -985,7 +985,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1869440365</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -1012,7 +1012,7 @@
 						<name>input_signal_addr</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>73</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -1028,7 +1028,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>73</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -1041,7 +1041,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>576532785</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -1059,7 +1059,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>14</m_topoIndex>
+				<m_topoIndex>15</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_21">
@@ -1070,7 +1070,7 @@
 						<name>input_signal_load</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>73</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -1086,7 +1086,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>73</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -1099,7 +1099,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>757935405</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -1115,7 +1115,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>3.25</m_delay>
-				<m_topoIndex>15</m_topoIndex>
+				<m_topoIndex>16</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_22">
@@ -1123,10 +1123,10 @@
 					<Obj>
 						<type>0</type>
 						<id>35</id>
-						<name>bitcast_ln73_1</name>
+						<name>bitcast_ln63_1</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>73</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -1142,7 +1142,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>73</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -1155,7 +1155,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1953394531</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -1182,7 +1182,7 @@
 						<name>estimation</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>73</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -1198,7 +1198,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>73</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -1211,7 +1211,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>128</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -1239,7 +1239,7 @@
 						<name>desired_signal_addr</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>74</lineNumber>
+						<lineNumber>64</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -1255,7 +1255,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>74</second>
+										<second>64</second>
 									</item>
 								</second>
 							</item>
@@ -1268,7 +1268,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3317720968</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -1297,7 +1297,7 @@
 						<name>desired_signal_load</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>74</lineNumber>
+						<lineNumber>64</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -1313,7 +1313,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>74</second>
+										<second>64</second>
 									</item>
 								</second>
 							</item>
@@ -1326,7 +1326,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1935961711</coreId>
+						<coreId>1936942413</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -1350,10 +1350,10 @@
 					<Obj>
 						<type>0</type>
 						<id>39</id>
-						<name>bitcast_ln74</name>
+						<name>bitcast_ln64</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>74</lineNumber>
+						<lineNumber>64</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -1369,7 +1369,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>74</second>
+										<second>64</second>
 									</item>
 								</second>
 							</item>
@@ -1382,7 +1382,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1684367475</coreId>
+						<coreId>1387401600</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -1409,7 +1409,7 @@
 						<name>error</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>74</lineNumber>
+						<lineNumber>64</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -1425,7 +1425,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>74</second>
+										<second>64</second>
 									</item>
 								</second>
 							</item>
@@ -1438,7 +1438,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1112350771</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -1454,7 +1454,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>5.92</m_delay>
+				<m_delay>5.33</m_delay>
 				<m_topoIndex>31</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -1466,7 +1466,7 @@
 						<name>conv</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>75</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -1482,7 +1482,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>75</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -1495,7 +1495,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>540697965</coreId>
+						<coreId>1387401104</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -1522,7 +1522,7 @@
 						<name>mul</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>75</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -1538,7 +1538,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>75</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -1551,7 +1551,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1126317428</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -1579,7 +1579,7 @@
 						<name>conv1</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>75</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -1595,7 +1595,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>75</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -1608,7 +1608,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>151666223</coreId>
+						<coreId>1031301478</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -1635,7 +1635,7 @@
 						<name>add</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>75</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -1651,7 +1651,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>75</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -1664,7 +1664,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1931502962</coreId>
+						<coreId>979725673</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -1692,7 +1692,7 @@
 						<name>div</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>75</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -1708,7 +1708,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>75</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -1721,7 +1721,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>757935405</coreId>
+						<coreId>1685217636</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -1749,7 +1749,7 @@
 						<name>conv2</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>75</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -1765,7 +1765,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>75</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -1778,7 +1778,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1852795252</coreId>
+						<coreId>1563504945</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -1805,7 +1805,7 @@
 						<name>mul1</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>75</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -1821,7 +1821,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>75</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -1834,7 +1834,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1279810338</coreId>
+						<coreId>1965053264</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -1850,7 +1850,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>6.82</m_delay>
+				<m_delay>5.70</m_delay>
 				<m_topoIndex>33</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -1862,7 +1862,7 @@
 						<name>conv3</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>75</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -1878,7 +1878,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>75</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -1891,7 +1891,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701273971</coreId>
+						<coreId>575620686</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -1918,7 +1918,7 @@
 						<name>mul2</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>75</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -1934,7 +1934,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>75</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -1947,7 +1947,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>6775156</coreId>
+						<coreId>572669294</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -1963,7 +1963,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>6.82</m_delay>
+				<m_delay>5.70</m_delay>
 				<m_topoIndex>35</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -1975,7 +1975,7 @@
 						<name>add1</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>75</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -1991,7 +1991,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>75</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -2004,7 +2004,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1868785011</coreId>
+						<coreId>909523295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -2032,7 +2032,7 @@
 						<name>conv4</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>75</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -2048,7 +2048,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>75</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -2061,7 +2061,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1346576430</coreId>
+						<coreId>825111328</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -2085,10 +2085,10 @@
 					<Obj>
 						<type>0</type>
 						<id>52</id>
-						<name>bitcast_ln75</name>
+						<name>bitcast_ln65</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>75</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -2104,7 +2104,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>75</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -2117,7 +2117,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1176633460</coreId>
+						<coreId>825241136</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -2141,10 +2141,10 @@
 					<Obj>
 						<type>0</type>
 						<id>53</id>
-						<name>weights_addr_write_ln75</name>
+						<name>weights_addr_write_ln65</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>75</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -2160,7 +2160,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>75</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -2173,7 +2173,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1931489312</coreId>
+						<coreId>1162692948</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2199,10 +2199,10 @@
 					<Obj>
 						<type>0</type>
 						<id>54</id>
-						<name>add_ln71</name>
+						<name>add_ln61</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>71</lineNumber>
+						<lineNumber>61</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -2218,7 +2218,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>71</second>
+										<second>61</second>
 									</item>
 								</second>
 							</item>
@@ -2231,7 +2231,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1734439968</coreId>
+						<coreId>1953724787</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -2248,7 +2248,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>1.87</m_delay>
-				<m_topoIndex>16</m_topoIndex>
+				<m_topoIndex>17</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_42">
@@ -2256,10 +2256,10 @@
 					<Obj>
 						<type>0</type>
 						<id>55</id>
-						<name>indvar_flatten_write_ln71</name>
+						<name>indvar_flatten_write_ln61</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>71</lineNumber>
+						<lineNumber>61</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -2275,7 +2275,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>71</second>
+										<second>61</second>
 									</item>
 								</second>
 							</item>
@@ -2288,7 +2288,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>808591443</coreId>
+						<coreId>1599294536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2307,7 +2307,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>1.58</m_delay>
-				<m_topoIndex>17</m_topoIndex>
+				<m_topoIndex>13</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_43">
@@ -2315,10 +2315,10 @@
 					<Obj>
 						<type>0</type>
 						<id>56</id>
-						<name>i_write_ln71</name>
+						<name>i_write_ln61</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>71</lineNumber>
+						<lineNumber>61</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -2334,7 +2334,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>71</second>
+										<second>61</second>
 									</item>
 								</second>
 							</item>
@@ -2347,7 +2347,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1701998624</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2374,10 +2374,10 @@
 					<Obj>
 						<type>0</type>
 						<id>57</id>
-						<name>br_ln71</name>
+						<name>br_ln61</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>71</lineNumber>
+						<lineNumber>61</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -2393,7 +2393,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>71</second>
+										<second>61</second>
 									</item>
 								</second>
 							</item>
@@ -2406,7 +2406,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>514903680</coreId>
+						<coreId>1387411344</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2430,10 +2430,10 @@
 					<Obj>
 						<type>0</type>
 						<id>59</id>
-						<name>_ln92</name>
+						<name>_ln82</name>
 						<fileName>nlms_filter/top.cpp</fileName>
 						<fileDirectory>/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP</fileDirectory>
-						<lineNumber>92</lineNumber>
+						<lineNumber>82</lineNumber>
 						<contextFuncName>nlms_top</contextFuncName>
 						<contextNormFuncName>nlms_top</contextNormFuncName>
 						<inlineStackInfo>
@@ -2449,7 +2449,7 @@
 											<first>nlms_filter/top.cpp</first>
 											<second>nlms_top</second>
 										</first>
-										<second>92</second>
+										<second>82</second>
 									</item>
 								</second>
 							</item>
@@ -2507,7 +2507,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>514931056</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -2538,7 +2538,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>514965248</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>11</bitwidth>
@@ -2600,7 +2600,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>514933888</coreId>
+						<coreId>1387415144</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>11</bitwidth>
@@ -2631,7 +2631,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1702258035</coreId>
+						<coreId>1387415808</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>11</bitwidth>
@@ -2662,7 +2662,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>514967376</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -2693,7 +2693,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>174</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -2724,7 +2724,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>514970216</coreId>
+						<coreId>1387417808</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -2755,7 +2755,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>514969216</coreId>
+						<coreId>1397508187</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -2786,7 +2786,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>128</coreId>
+						<coreId>1387347344</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -2820,7 +2820,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>514694160</coreId>
+					<coreId>1387095872</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -2855,7 +2855,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>514694160</coreId>
+					<coreId>1387095872</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -2889,7 +2889,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>0</coreId>
+					<coreId>54</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -3542,8 +3542,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>1380</mMinLatency>
-			<mMaxLatency>1380</mMaxLatency>
+			<mMinLatency>1383</mMinLatency>
+			<mMaxLatency>1383</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -3586,11 +3586,11 @@
 				<item>58</item>
 			</basic_blocks>
 			<mII>1</mII>
-			<mDepth>100</mDepth>
+			<mDepth>103</mDepth>
 			<mMinTripCount>1280</mMinTripCount>
 			<mMaxTripCount>1280</mMaxTripCount>
-			<mMinLatency>1378</mMinLatency>
-			<mMaxLatency>1378</mMaxLatency>
+			<mMinLatency>1381</mMinLatency>
+			<mMaxLatency>1381</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -3710,182 +3710,182 @@
 		<item>
 			<first>27</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>30</first>
 			<second>
-				<first>67</first>
+				<first>68</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>31</first>
 			<second>
-				<first>67</first>
+				<first>68</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>32</first>
 			<second>
-				<first>69</first>
+				<first>70</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>33</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>34</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>35</first>
 			<second>
-				<first>2</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>36</first>
 			<second>
-				<first>69</first>
+				<first>70</first>
 				<second>3</second>
 			</second>
 		</item>
 		<item>
 			<first>37</first>
 			<second>
-				<first>71</first>
+				<first>72</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>38</first>
 			<second>
-				<first>71</first>
+				<first>72</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>39</first>
 			<second>
-				<first>73</first>
+				<first>74</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>40</first>
 			<second>
-				<first>73</first>
-				<second>6</second>
+				<first>74</first>
+				<second>7</second>
 			</second>
 		</item>
 		<item>
 			<first>41</first>
 			<second>
-				<first>87</first>
+				<first>90</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>42</first>
 			<second>
-				<first>2</first>
+				<first>3</first>
 				<second>3</second>
 			</second>
 		</item>
 		<item>
 			<first>43</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>44</first>
 			<second>
-				<first>8</first>
+				<first>9</first>
 				<second>7</second>
 			</second>
 		</item>
 		<item>
 			<first>45</first>
 			<second>
-				<first>16</first>
+				<first>17</first>
 				<second>58</second>
 			</second>
 		</item>
 		<item>
 			<first>46</first>
 			<second>
-				<first>73</first>
+				<first>74</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>47</first>
 			<second>
-				<first>75</first>
-				<second>6</second>
+				<first>76</first>
+				<second>7</second>
 			</second>
 		</item>
 		<item>
 			<first>48</first>
 			<second>
-				<first>80</first>
+				<first>82</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>49</first>
 			<second>
-				<first>82</first>
-				<second>6</second>
+				<first>84</first>
+				<second>7</second>
 			</second>
 		</item>
 		<item>
 			<first>50</first>
 			<second>
-				<first>89</first>
+				<first>92</first>
 				<second>7</second>
 			</second>
 		</item>
 		<item>
 			<first>51</first>
 			<second>
-				<first>97</first>
+				<first>100</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>52</first>
 			<second>
-				<first>99</first>
+				<first>102</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>53</first>
 			<second>
-				<first>99</first>
+				<first>102</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>54</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -3899,21 +3899,21 @@
 		<item>
 			<first>56</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>57</first>
 			<second>
-				<first>99</first>
+				<first>102</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>59</first>
 			<second>
-				<first>98</first>
+				<first>101</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -3939,7 +3939,7 @@
 			<first>58</first>
 			<second>
 				<first>1</first>
-				<second>100</second>
+				<second>103</second>
 			</second>
 		</item>
 		<item>
@@ -3968,7 +3968,7 @@
 			<anchor_node>-1</anchor_node>
 			<region_type>8</region_type>
 			<interval>1</interval>
-			<pipe_depth>100</pipe_depth>
+			<pipe_depth>103</pipe_depth>
 			<mDBIIViolationVec class_id="34" tracking_level="0" version="0">
 				<count>0</count>
 				<item_version>0</item_version>

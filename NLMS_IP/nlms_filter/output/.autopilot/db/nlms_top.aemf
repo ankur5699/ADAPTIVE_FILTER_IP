@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1716206923363">
-  <ports id="1" name="input_signal" type="PortType" coreName="RAM" coreId="514694160" bitwidth="32" iftype="IfTypeRegister" arraysize="128">
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1730112809670">
+  <ports id="1" name="input_signal" type="PortType" coreName="RAM" coreId="1387095872" bitwidth="32" iftype="IfTypeRegister" arraysize="128">
     <dataOutputObjs>getelementptr</dataOutputObjs>
   </ports>
-  <ports id="2" name="desired_signal" type="PortType" coreName="RAM" coreId="54" bitwidth="32" iftype="IfTypeRegister" arraysize="128">
+  <ports id="2" name="desired_signal" type="PortType" coreName="RAM" coreId="0" bitwidth="32" iftype="IfTypeRegister" arraysize="128">
     <dataOutputObjs>getelementptr</dataOutputObjs>
   </ports>
-  <ports id="3" name="weights" type="PortType" coreName="RAM" coreId="0" bitwidth="32" direction="DirInOut" iftype="IfTypeRegister" arraysize="128">
+  <ports id="3" name="weights" type="PortType" coreName="RAM" coreId="1374600656" bitwidth="32" direction="DirInOut" iftype="IfTypeRegister" arraysize="128">
     <dataInputObjs>getelementptr</dataInputObjs>
     <dataOutputObjs>getelementptr</dataOutputObjs>
   </ports>
@@ -78,47 +78,47 @@
   <edges id="-89" source_obj="//@regions.0/@basic_blocks.1/@node_objs.4" sink_obj="//@ports.2"/>
   <blocks id="16" name="entry" type="BlockType">
     <controlOutputObjs>for.inc</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="4" name="i" originalName="i" coreId="514694160" bitwidth="8" opcode="alloca" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="4" name="i" originalName="i" coreId="1387095872" bitwidth="8" opcode="alloca" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
       <dataOutputObjs>store</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <dataOutputObjs>store</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="5" name="indvar_flatten" coreId="514694160" bitwidth="11" opcode="alloca" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="5" name="indvar_flatten" coreId="1387095872" bitwidth="11" opcode="alloca" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
       <dataOutputObjs>store</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <dataOutputObjs>store</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="13" name="indvar_flatten_write_ln69" lineNumber="69" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="3344699613" contextFuncName="nlms_top" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="3" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="69" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="13" name="indvar_flatten_write_ln59" lineNumber="59" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="1953459305" contextFuncName="nlms_top" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="59" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
       <dataInputObjs>alloca</dataInputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="14" name="i_write_ln69" lineNumber="69" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="543716455" contextFuncName="nlms_top" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="4" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="69" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="14" name="i_write_ln59" lineNumber="59" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="543716455" contextFuncName="nlms_top" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="4" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="59" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
       <dataInputObjs>alloca</dataInputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="15" name="br_ln69" lineNumber="69" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="1852404340" contextFuncName="nlms_top" opcode="br" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="69" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="15" name="br_ln59" lineNumber="59" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="1852404340" contextFuncName="nlms_top" opcode="br" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="59" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
       <controlInputObjs>for.inc</controlInputObjs>
     </node_objs>
     <fileValidLineNumbers fileName="nlms_filter/top.cpp">
-      <validLinenumbers>69</validLinenumbers>
+      <validLinenumbers>59</validLinenumbers>
     </fileValidLineNumbers>
   </blocks>
   <blocks id="60" name="for.end37" type="BlockType">
     <controlInputObjs>for.inc</controlInputObjs>
     <controlOutputObjs>br</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="59" name="_ln92" lineNumber="92" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="0" contextFuncName="nlms_top" opcode="ret" nodeLabel="98.0" m_display="0" m_topoIndex="39" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="92" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="59" name="_ln82" lineNumber="82" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="0" contextFuncName="nlms_top" opcode="ret" nodeLabel="101.0" m_display="0" m_topoIndex="39" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="82" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
     </node_objs>
     <fileValidLineNumbers fileName="nlms_filter/top.cpp">
-      <validLinenumbers>92</validLinenumbers>
+      <validLinenumbers>82</validLinenumbers>
     </fileValidLineNumbers>
   </blocks>
-  <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" iiViolation="" id="501" pipe_depth="100" RegionName="nlms_outer_loop_nlms_inner_loop">
+  <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" iiViolation="" id="510" pipe_depth="103" RegionName="nlms_outer_loop_nlms_inner_loop">
     <basic_blocks id="21" name="for.inc" type="BlockType">
       <controlInputObjs>entry</controlInputObjs>
       <controlInputObjs>for.inc35</controlInputObjs>
@@ -126,67 +126,67 @@
       <controlOutputObjs>br</controlOutputObjs>
       <controlOutputObjs>for.end37</controlOutputObjs>
       <controlOutputObjs>for.inc35</controlOutputObjs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="17" name="indvar_flatten_load" lineNumber="69" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="514710432" contextFuncName="nlms_top" bitwidth="11" opcode="load" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="69" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="17" name="indvar_flatten_load" lineNumber="59" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="128" contextFuncName="nlms_top" bitwidth="11" opcode="load" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="59" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>alloca</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
         <dataOutputObjs>add</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="18" name="icmp_ln69" lineNumber="69" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="icmp_ln69_fu_167_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="nlms_top" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.96" m_topoIndex="7" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="69" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="18" name="icmp_ln59" lineNumber="59" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="icmp_ln59_fu_167_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="nlms_top" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.96" m_topoIndex="7" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="59" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>load</dataInputObjs>
         <dataOutputObjs>br</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="19" name="add_ln69" lineNumber="69" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="add_ln69_fu_173_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="nlms_top" bitwidth="11" opcode="add" m_display="0" m_delay="1.97" m_topoIndex="8" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="69" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="19" name="add_ln59" lineNumber="59" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="add_ln59_fu_173_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="nlms_top" bitwidth="11" opcode="add" m_display="0" m_delay="1.97" m_topoIndex="8" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="59" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>load</dataInputObjs>
         <dataOutputObjs>store</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="20" name="br_ln69" lineNumber="69" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="514710432" contextFuncName="nlms_top" opcode="br" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="69" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="20" name="br_ln59" lineNumber="59" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="0" contextFuncName="nlms_top" opcode="br" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="59" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>icmp</dataInputObjs>
         <controlInputObjs>for.inc35</controlInputObjs>
         <controlInputObjs>for.end37</controlInputObjs>
       </node_objs>
       <fileValidLineNumbers fileName="nlms_filter/top.cpp">
-        <validLinenumbers>69</validLinenumbers>
+        <validLinenumbers>59</validLinenumbers>
       </fileValidLineNumbers>
     </basic_blocks>
     <basic_blocks id="58" name="for.inc35" type="BlockType">
       <controlInputObjs>for.inc</controlInputObjs>
       <controlOutputObjs>br</controlOutputObjs>
       <controlOutputObjs>for.inc</controlOutputObjs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="22" name="i_load" lineNumber="71" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="1296846383" contextFuncName="nlms_top" bitwidth="8" opcode="load" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="71" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="22" name="i_load" lineNumber="61" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="0" contextFuncName="nlms_top" bitwidth="8" opcode="load" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="61" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>alloca</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
         <dataOutputObjs>select</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="25" name="icmp_ln71" lineNumber="71" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="icmp_ln71_fu_182_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="nlms_top" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.62" m_topoIndex="11" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="71" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="25" name="icmp_ln61" lineNumber="61" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="icmp_ln61_fu_182_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="nlms_top" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.62" m_topoIndex="11" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="61" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>load</dataInputObjs>
         <dataOutputObjs>select</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="select_ln69" lineNumber="69" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="select_ln69_fu_188_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="nlms_top" bitwidth="8" opcode="select" m_display="0" m_delay="1.24" m_topoIndex="12" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="69" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="select_ln59" lineNumber="59" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="select_ln59_fu_188_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="nlms_top" bitwidth="8" opcode="select" m_display="0" m_delay="1.24" m_topoIndex="12" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="59" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>icmp</dataInputObjs>
         <dataInputObjs>load</dataInputObjs>
         <dataOutputObjs>zext</dataOutputObjs>
         <dataOutputObjs>add</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="27" name="zext_ln71" lineNumber="71" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="zext_ln71_fu_196_p1" coreId="514947488" contextFuncName="nlms_top" bitwidth="64" opcode="zext" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="71" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="27" name="zext_ln61" lineNumber="61" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="zext_ln61_fu_201_p1" coreId="997420912" contextFuncName="nlms_top" bitwidth="64" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="14" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="61" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>getelementptr</dataOutputObjs>
         <dataOutputObjs>getelementptr</dataOutputObjs>
         <dataOutputObjs>getelementptr</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="30" name="weights_addr" lineNumber="73" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="514948072" contextFuncName="nlms_top" bitwidth="7" opcode="getelementptr" nodeLabel="67.0" m_display="0" m_topoIndex="24" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="73" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="30" name="weights_addr" lineNumber="63" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="1836008224" contextFuncName="nlms_top" bitwidth="7" opcode="getelementptr" nodeLabel="68.0" m_display="0" m_topoIndex="24" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="63" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>weights</dataInputObjs>
         <dataInputObjs>zext</dataInputObjs>
         <dataOutputObjs>load</dataOutputObjs>
@@ -194,163 +194,163 @@
         <dataOutputObjs>weights</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="31" name="weights_load" lineNumber="73" fileName="nlms_filter/top.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="nlms_top" bitwidth="32" opcode="load" nodeLabel="67.0" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="25" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="73" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="31" name="weights_load" lineNumber="63" fileName="nlms_filter/top.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="nlms_top" bitwidth="32" opcode="load" nodeLabel="68.0" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="25" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="63" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>getelementptr</dataInputObjs>
         <dataOutputObjs>bitcast</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="32" name="bitcast_ln73" lineNumber="73" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="grp_fu_113_p0" coreId="0" contextFuncName="nlms_top" bitwidth="32" opcode="bitcast" nodeLabel="69.0" m_display="0" m_topoIndex="26" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="73" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="32" name="bitcast_ln63" lineNumber="63" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="grp_fu_113_p0" coreId="1869440365" contextFuncName="nlms_top" bitwidth="32" opcode="bitcast" nodeLabel="70.0" m_display="0" m_topoIndex="26" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="63" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>load</dataInputObjs>
         <dataOutputObjs>fmul</dataOutputObjs>
         <dataOutputObjs>fpext</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="33" name="input_signal_addr" lineNumber="73" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="0" contextFuncName="nlms_top" bitwidth="7" opcode="getelementptr" m_display="0" m_topoIndex="14" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="73" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="33" name="input_signal_addr" lineNumber="63" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="576532785" contextFuncName="nlms_top" bitwidth="7" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="63" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>input_signal</dataInputObjs>
         <dataInputObjs>zext</dataInputObjs>
         <dataOutputObjs>load</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="34" name="input_signal_load" lineNumber="73" fileName="nlms_filter/top.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="nlms_top" bitwidth="32" opcode="load" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="15" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="73" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="34" name="input_signal_load" lineNumber="63" fileName="nlms_filter/top.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="nlms_top" bitwidth="32" opcode="load" nodeLabel="1.0" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="16" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="63" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>getelementptr</dataInputObjs>
         <dataOutputObjs>bitcast</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="35" name="bitcast_ln73_1" lineNumber="73" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="bitcast_ln73_1_fu_217_p1" coreId="0" contextFuncName="nlms_top" bitwidth="32" opcode="bitcast" nodeLabel="2.0" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="73" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="35" name="bitcast_ln63_1" lineNumber="63" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="bitcast_ln63_1_fu_215_p1" coreId="1953394531" contextFuncName="nlms_top" bitwidth="32" opcode="bitcast" nodeLabel="3.0" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="63" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>load</dataInputObjs>
         <dataOutputObjs>fmul</dataOutputObjs>
         <dataOutputObjs>fmul</dataOutputObjs>
         <dataOutputObjs>fmul</dataOutputObjs>
         <dataOutputObjs>fpext</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="36" name="estimation" lineNumber="73" originalName="estimation" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="fmul_32ns_32ns_32_4_max_dsp_1_U3" coreName="FMul_maxdsp" implIndex="maxdsp" control="no" opType="fmul" coreId="30" contextFuncName="nlms_top" bitwidth="32" opcode="fmul" nodeLabel="69.0" nodeLatency="3" m_display="0" m_delay="5.78" m_topoIndex="27" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="73" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="36" name="estimation" lineNumber="63" originalName="estimation" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="fmul_32ns_32ns_32_4_max_dsp_1_U3" coreName="FMul_maxdsp" implIndex="maxdsp" control="no" opType="fmul" coreId="30" contextFuncName="nlms_top" bitwidth="32" opcode="fmul" nodeLabel="70.0" nodeLatency="3" m_display="0" m_delay="5.78" m_topoIndex="27" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="63" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataOutputObjs>fsub</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="37" name="desired_signal_addr" lineNumber="74" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="3317720968" contextFuncName="nlms_top" bitwidth="7" opcode="getelementptr" nodeLabel="71.0" m_display="0" m_topoIndex="28" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="74" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="37" name="desired_signal_addr" lineNumber="64" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="0" contextFuncName="nlms_top" bitwidth="7" opcode="getelementptr" nodeLabel="72.0" m_display="0" m_topoIndex="28" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="64" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>desired_signal</dataInputObjs>
         <dataInputObjs>zext</dataInputObjs>
         <dataOutputObjs>load</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="38" name="desired_signal_load" lineNumber="74" fileName="nlms_filter/top.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="nlms_top" bitwidth="32" opcode="load" nodeLabel="71.0" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="29" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="74" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="38" name="desired_signal_load" lineNumber="64" fileName="nlms_filter/top.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="nlms_top" bitwidth="32" opcode="load" nodeLabel="72.0" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="29" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="64" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>getelementptr</dataInputObjs>
         <dataOutputObjs>bitcast</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="39" name="bitcast_ln74" lineNumber="74" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="grp_fu_105_p0" coreId="1684367475" contextFuncName="nlms_top" bitwidth="32" opcode="bitcast" nodeLabel="73.0" m_display="0" m_topoIndex="30" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="74" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="39" name="bitcast_ln64" lineNumber="64" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="grp_fu_105_p0" coreId="1387401600" contextFuncName="nlms_top" bitwidth="32" opcode="bitcast" nodeLabel="74.0" m_display="0" m_topoIndex="30" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="64" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>load</dataInputObjs>
         <dataOutputObjs>fsub</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="40" name="error" lineNumber="74" originalName="error" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="fsub_32ns_32ns_32_7_full_dsp_1_U1" coreName="FAddSub_fulldsp" implIndex="fulldsp" control="no" opType="fsub" coreId="18" contextFuncName="nlms_top" bitwidth="32" opcode="fsub" nodeLabel="73.0" nodeLatency="6" m_display="0" m_delay="5.92" m_topoIndex="31" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="74" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="40" name="error" lineNumber="64" originalName="error" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="fsub_32ns_32ns_32_8_full_dsp_1_U1" coreName="FAddSub_fulldsp" implIndex="fulldsp" control="no" opType="fsub" coreId="18" contextFuncName="nlms_top" bitwidth="32" opcode="fsub" nodeLabel="74.0" nodeLatency="7" m_display="0" m_delay="5.33" m_topoIndex="31" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="64" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataInputObjs>fmul</dataInputObjs>
         <dataOutputObjs>fpext</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="41" name="conv" lineNumber="75" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="fpext_32ns_64_2_no_dsp_1_U8" coreName="Float2Double" implIndex="auto" control="no" opType="fpext" coreId="64" contextFuncName="nlms_top" bitwidth="64" opcode="fpext" nodeLabel="87.0" nodeLatency="1" m_display="0" m_delay="4.09" m_topoIndex="36" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="75" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="41" name="conv" lineNumber="65" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="fpext_32ns_64_2_no_dsp_1_U8" coreName="Float2Double" implIndex="auto" control="no" opType="fpext" coreId="64" contextFuncName="nlms_top" bitwidth="64" opcode="fpext" nodeLabel="90.0" nodeLatency="1" m_display="0" m_delay="4.09" m_topoIndex="36" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="65" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataOutputObjs>dadd</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="42" name="mul" lineNumber="75" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="fmul_32ns_32ns_32_4_max_dsp_1_U2" coreName="FMul_maxdsp" implIndex="maxdsp" control="no" opType="fmul" coreId="30" contextFuncName="nlms_top" bitwidth="32" opcode="fmul" nodeLabel="2.0" nodeLatency="3" m_display="0" m_delay="5.78" m_topoIndex="20" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="75" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="42" name="mul" lineNumber="65" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="fmul_32ns_32ns_32_4_max_dsp_1_U2" coreName="FMul_maxdsp" implIndex="maxdsp" control="no" opType="fmul" coreId="30" contextFuncName="nlms_top" bitwidth="32" opcode="fmul" nodeLabel="3.0" nodeLatency="3" m_display="0" m_delay="5.78" m_topoIndex="20" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="65" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataOutputObjs>fpext</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="43" name="conv1" lineNumber="75" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="fpext_32ns_64_2_no_dsp_1_U5" coreName="Float2Double" implIndex="auto" control="no" opType="fpext" coreId="64" contextFuncName="nlms_top" bitwidth="64" opcode="fpext" nodeLabel="6.0" nodeLatency="1" m_display="0" m_delay="4.09" m_topoIndex="21" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="75" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="43" name="conv1" lineNumber="65" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="fpext_32ns_64_2_no_dsp_1_U5" coreName="Float2Double" implIndex="auto" control="no" opType="fpext" coreId="64" contextFuncName="nlms_top" bitwidth="64" opcode="fpext" nodeLabel="7.0" nodeLatency="1" m_display="0" m_delay="4.09" m_topoIndex="21" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="65" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>fmul</dataInputObjs>
         <dataOutputObjs>dadd</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="44" name="add" lineNumber="75" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="dadd_64ns_64ns_64_8_full_dsp_1_U9" coreName="DAddSub_fulldsp" implIndex="fulldsp" control="no" opType="dadd" coreId="37" contextFuncName="nlms_top" bitwidth="64" opcode="dadd" nodeLabel="8.0" nodeLatency="7" m_display="0" m_delay="5.65" m_topoIndex="22" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="75" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="44" name="add" lineNumber="65" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="dadd_64ns_64ns_64_8_full_dsp_1_U9" coreName="DAddSub_fulldsp" implIndex="fulldsp" control="no" opType="dadd" coreId="37" contextFuncName="nlms_top" bitwidth="64" opcode="dadd" nodeLabel="9.0" nodeLatency="7" m_display="0" m_delay="5.65" m_topoIndex="22" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="65" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>fpext</dataInputObjs>
         <dataOutputObjs>ddiv</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="45" name="div" lineNumber="75" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="ddiv_64ns_64ns_64_59_no_dsp_1_U13" coreName="DDiv" implIndex="fabric" control="no" opType="ddiv" coreId="39" contextFuncName="nlms_top" bitwidth="64" opcode="ddiv" nodeLabel="16.0" nodeLatency="58" m_display="0" m_delay="4.87" m_topoIndex="23" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="75" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="45" name="div" lineNumber="65" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="ddiv_64ns_64ns_64_59_no_dsp_1_U13" coreName="DDiv" implIndex="fabric" control="no" opType="ddiv" coreId="39" contextFuncName="nlms_top" bitwidth="64" opcode="ddiv" nodeLabel="17.0" nodeLatency="58" m_display="0" m_delay="4.87" m_topoIndex="23" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="65" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>dadd</dataInputObjs>
         <dataOutputObjs>dmul</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="46" name="conv2" lineNumber="75" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="fpext_32ns_64_2_no_dsp_1_U6" coreName="Float2Double" implIndex="auto" control="no" opType="fpext" coreId="64" contextFuncName="nlms_top" bitwidth="64" opcode="fpext" nodeLabel="73.0" nodeLatency="1" m_display="0" m_delay="4.09" m_topoIndex="32" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="75" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="46" name="conv2" lineNumber="65" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="fpext_32ns_64_2_no_dsp_1_U6" coreName="Float2Double" implIndex="auto" control="no" opType="fpext" coreId="64" contextFuncName="nlms_top" bitwidth="64" opcode="fpext" nodeLabel="74.0" nodeLatency="1" m_display="0" m_delay="4.09" m_topoIndex="32" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="65" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataOutputObjs>dmul</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="47" name="mul1" lineNumber="75" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="dmul_64ns_64ns_64_7_max_dsp_1_U11" coreName="DMul_maxdsp" implIndex="maxdsp" control="no" opType="dmul" coreId="49" contextFuncName="nlms_top" bitwidth="64" opcode="dmul" nodeLabel="75.0" nodeLatency="6" m_display="0" m_delay="6.82" m_topoIndex="33" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="75" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="47" name="mul1" lineNumber="65" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="dmul_64ns_64ns_64_8_max_dsp_1_U11" coreName="DMul_maxdsp" implIndex="maxdsp" control="no" opType="dmul" coreId="49" contextFuncName="nlms_top" bitwidth="64" opcode="dmul" nodeLabel="76.0" nodeLatency="7" m_display="0" m_delay="5.7" m_topoIndex="33" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="65" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>ddiv</dataInputObjs>
         <dataInputObjs>fpext</dataInputObjs>
         <dataOutputObjs>dmul</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="48" name="conv3" lineNumber="75" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="fpext_32ns_64_2_no_dsp_1_U7" coreName="Float2Double" implIndex="auto" control="no" opType="fpext" coreId="64" contextFuncName="nlms_top" bitwidth="64" opcode="fpext" nodeLabel="80.0" nodeLatency="1" m_display="0" m_delay="4.09" m_topoIndex="34" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="75" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="48" name="conv3" lineNumber="65" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="fpext_32ns_64_2_no_dsp_1_U7" coreName="Float2Double" implIndex="auto" control="no" opType="fpext" coreId="64" contextFuncName="nlms_top" bitwidth="64" opcode="fpext" nodeLabel="82.0" nodeLatency="1" m_display="0" m_delay="4.09" m_topoIndex="34" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="65" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>fsub</dataInputObjs>
         <dataOutputObjs>dmul</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="49" name="mul2" lineNumber="75" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="dmul_64ns_64ns_64_7_max_dsp_1_U12" coreName="DMul_maxdsp" implIndex="maxdsp" control="no" opType="dmul" coreId="49" contextFuncName="nlms_top" bitwidth="64" opcode="dmul" nodeLabel="82.0" nodeLatency="6" m_display="0" m_delay="6.82" m_topoIndex="35" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="75" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="49" name="mul2" lineNumber="65" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="dmul_64ns_64ns_64_8_max_dsp_1_U12" coreName="DMul_maxdsp" implIndex="maxdsp" control="no" opType="dmul" coreId="49" contextFuncName="nlms_top" bitwidth="64" opcode="dmul" nodeLabel="84.0" nodeLatency="7" m_display="0" m_delay="5.7" m_topoIndex="35" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="65" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>dmul</dataInputObjs>
         <dataInputObjs>fpext</dataInputObjs>
         <dataOutputObjs>dadd</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="50" name="add1" lineNumber="75" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="dadd_64ns_64ns_64_8_full_dsp_1_U10" coreName="DAddSub_fulldsp" implIndex="fulldsp" control="no" opType="dadd" coreId="37" contextFuncName="nlms_top" bitwidth="64" opcode="dadd" nodeLabel="89.0" nodeLatency="7" m_display="0" m_delay="5.65" m_topoIndex="37" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="75" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="50" name="add1" lineNumber="65" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="dadd_64ns_64ns_64_8_full_dsp_1_U10" coreName="DAddSub_fulldsp" implIndex="fulldsp" control="no" opType="dadd" coreId="37" contextFuncName="nlms_top" bitwidth="64" opcode="dadd" nodeLabel="92.0" nodeLatency="7" m_display="0" m_delay="5.65" m_topoIndex="37" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="65" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>fpext</dataInputObjs>
         <dataInputObjs>dmul</dataInputObjs>
         <dataOutputObjs>fptrunc</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="51" name="conv4" lineNumber="75" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="fptrunc_64ns_32_2_no_dsp_1_U4" coreName="Double2Float" implIndex="auto" control="no" opType="fptrunc" coreId="67" contextFuncName="nlms_top" bitwidth="32" opcode="fptrunc" nodeLabel="97.0" nodeLatency="1" m_display="0" m_delay="5.16" m_topoIndex="38" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="75" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="51" name="conv4" lineNumber="65" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="fptrunc_64ns_32_2_no_dsp_1_U4" coreName="Double2Float" implIndex="auto" control="no" opType="fptrunc" coreId="67" contextFuncName="nlms_top" bitwidth="32" opcode="fptrunc" nodeLabel="100.0" nodeLatency="1" m_display="0" m_delay="5.16" m_topoIndex="38" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="65" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>dadd</dataInputObjs>
         <dataOutputObjs>bitcast</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="52" name="bitcast_ln75" lineNumber="75" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="weights_d0" coreId="1176633460" contextFuncName="nlms_top" bitwidth="32" opcode="bitcast" nodeLabel="99.0" m_display="0" m_topoIndex="40" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="75" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="52" name="bitcast_ln65" lineNumber="65" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="weights_d0" coreId="825241136" contextFuncName="nlms_top" bitwidth="32" opcode="bitcast" nodeLabel="102.0" m_display="0" m_topoIndex="40" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="65" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>fptrunc</dataInputObjs>
         <dataOutputObjs>store</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="53" name="weights_addr_write_ln75" lineNumber="75" fileName="nlms_filter/top.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="nlms_top" opcode="store" nodeLabel="99.0" m_display="0" m_delay="3.25" m_topoIndex="41" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="75" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="53" name="weights_addr_write_ln65" lineNumber="65" fileName="nlms_filter/top.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="nlms_top" opcode="store" nodeLabel="102.0" m_display="0" m_delay="3.25" m_topoIndex="41" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="65" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataInputObjs>getelementptr</dataInputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="54" name="add_ln71" lineNumber="71" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="add_ln71_fu_201_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="nlms_top" bitwidth="8" opcode="add" m_display="0" m_delay="1.87" m_topoIndex="16" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="71" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="54" name="add_ln61" lineNumber="61" fileName="nlms_filter/top.cpp" fileDirectory=".." rtlName="add_ln61_fu_205_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="nlms_top" bitwidth="8" opcode="add" nodeLabel="1.0" m_display="0" m_delay="1.87" m_topoIndex="17" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="61" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>store</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="55" name="indvar_flatten_write_ln71" lineNumber="71" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="808591443" contextFuncName="nlms_top" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="17" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="71" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="55" name="indvar_flatten_write_ln61" lineNumber="61" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="1599294536" contextFuncName="nlms_top" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="13" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="61" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>add</dataInputObjs>
         <dataInputObjs>alloca</dataInputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="56" name="i_write_ln71" lineNumber="71" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="0" contextFuncName="nlms_top" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="18" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="71" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="56" name="i_write_ln61" lineNumber="61" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="1701998624" contextFuncName="nlms_top" opcode="store" nodeLabel="1.0" m_display="0" m_delay="1.58" m_topoIndex="18" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="61" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <dataInputObjs>add</dataInputObjs>
         <dataInputObjs>alloca</dataInputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="57" name="br_ln71" lineNumber="71" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="514903680" contextFuncName="nlms_top" opcode="br" nodeLabel="99.0" m_display="0" m_topoIndex="42" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="71" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="57" name="br_ln61" lineNumber="61" fileName="nlms_filter/top.cpp" fileDirectory=".." coreId="1387411344" contextFuncName="nlms_top" opcode="br" nodeLabel="102.0" m_display="0" m_topoIndex="42" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="nlms_filter/top.cpp" linenumber="61" fileDirectory="/home/ankur/Desktop/IDEX_work/ADAPTIVE_FILTER_IP/NLMS_IP" functionName="nlms_top"/>
         <controlInputObjs>for.inc</controlInputObjs>
       </node_objs>
       <fileValidLineNumbers fileName="nlms_filter/top.cpp">
-        <validLinenumbers>71</validLinenumbers>
-        <validLinenumbers>69</validLinenumbers>
-        <validLinenumbers>73</validLinenumbers>
-        <validLinenumbers>74</validLinenumbers>
-        <validLinenumbers>75</validLinenumbers>
+        <validLinenumbers>61</validLinenumbers>
+        <validLinenumbers>59</validLinenumbers>
+        <validLinenumbers>63</validLinenumbers>
+        <validLinenumbers>64</validLinenumbers>
+        <validLinenumbers>65</validLinenumbers>
       </fileValidLineNumbers>
     </basic_blocks>
   </regions>
@@ -454,101 +454,104 @@
   <ScheduleInfo time="97"/>
   <ScheduleInfo time="98"/>
   <ScheduleInfo time="99"/>
-  <regnodes realName="bitcast_ln73_reg_302">
-    <nodeIds>32</nodeIds>
-  </regnodes>
-  <regnodes realName="add1_reg_363">
-    <nodeIds>50</nodeIds>
-  </regnodes>
-  <regnodes realName="i_reg_234">
+  <ScheduleInfo time="100"/>
+  <ScheduleInfo time="101"/>
+  <ScheduleInfo time="102"/>
+  <regnodes realName="i_reg_232">
     <nodeIds>4</nodeIds>
   </regnodes>
-  <regnodes realName="error_reg_338">
-    <nodeIds>40</nodeIds>
-  </regnodes>
-  <regnodes realName="conv1_reg_281">
-    <nodeIds>43</nodeIds>
-  </regnodes>
-  <regnodes realName="zext_ln71_reg_252">
-    <nodeIds>27</nodeIds>
-  </regnodes>
-  <regnodes realName="weights_load_reg_297">
-    <nodeIds>31</nodeIds>
-  </regnodes>
-  <regnodes realName="conv2_reg_333">
-    <nodeIds>46</nodeIds>
-  </regnodes>
-  <regnodes realName="mul2_reg_358">
-    <nodeIds>49</nodeIds>
-  </regnodes>
-  <regnodes realName="bitcast_ln73_1_reg_268">
-    <nodeIds>35</nodeIds>
-  </regnodes>
-  <regnodes realName="desired_signal_addr_reg_308">
-    <nodeIds>37</nodeIds>
-  </regnodes>
-  <regnodes realName="conv_reg_353">
-    <nodeIds>41</nodeIds>
-  </regnodes>
-  <regnodes realName="div_reg_328">
-    <nodeIds>45</nodeIds>
-  </regnodes>
-  <regnodes realName="input_signal_addr_reg_258">
+  <regnodes realName="input_signal_addr_reg_262">
     <nodeIds>33</nodeIds>
   </regnodes>
-  <regnodes realName="estimation_reg_313">
-    <nodeIds>36</nodeIds>
+  <regnodes realName="add1_reg_367">
+    <nodeIds>50</nodeIds>
   </regnodes>
-  <regnodes realName="mul1_reg_343">
-    <nodeIds>47</nodeIds>
-  </regnodes>
-  <regnodes realName="icmp_ln69_reg_248">
-    <nodeIds>18</nodeIds>
-  </regnodes>
-  <regnodes realName="weights_addr_reg_291">
-    <nodeIds>30</nodeIds>
-  </regnodes>
-  <regnodes realName="conv4_reg_368">
-    <nodeIds>51</nodeIds>
-  </regnodes>
-  <regnodes realName="conv3_reg_348">
-    <nodeIds>48</nodeIds>
-  </regnodes>
-  <regnodes realName="desired_signal_load_reg_318">
-    <nodeIds>38</nodeIds>
-  </regnodes>
-  <regnodes realName="indvar_flatten_reg_241">
+  <regnodes realName="indvar_flatten_reg_239">
     <nodeIds>5</nodeIds>
   </regnodes>
-  <regnodes realName="input_signal_load_reg_263">
-    <nodeIds>34</nodeIds>
+  <regnodes realName="desired_signal_load_reg_322">
+    <nodeIds>38</nodeIds>
   </regnodes>
-  <regnodes realName="add_reg_286">
-    <nodeIds>44</nodeIds>
+  <regnodes realName="bitcast_ln63_reg_306">
+    <nodeIds>32</nodeIds>
   </regnodes>
-  <regnodes realName="bitcast_ln74_reg_323">
-    <nodeIds>39</nodeIds>
-  </regnodes>
-  <regnodes realName="mul_reg_276">
+  <regnodes realName="mul_reg_280">
     <nodeIds>42</nodeIds>
   </regnodes>
-  <expressionNodes realName="bitcast_ln73_1_fu_217">
+  <regnodes realName="bitcast_ln64_reg_327">
+    <nodeIds>39</nodeIds>
+  </regnodes>
+  <regnodes realName="desired_signal_addr_reg_312">
+    <nodeIds>37</nodeIds>
+  </regnodes>
+  <regnodes realName="select_ln59_reg_250">
+    <nodeIds>26</nodeIds>
+  </regnodes>
+  <regnodes realName="add_reg_290">
+    <nodeIds>44</nodeIds>
+  </regnodes>
+  <regnodes realName="conv4_reg_372">
+    <nodeIds>51</nodeIds>
+  </regnodes>
+  <regnodes realName="conv2_reg_337">
+    <nodeIds>46</nodeIds>
+  </regnodes>
+  <regnodes realName="conv3_reg_352">
+    <nodeIds>48</nodeIds>
+  </regnodes>
+  <regnodes realName="estimation_reg_317">
+    <nodeIds>36</nodeIds>
+  </regnodes>
+  <regnodes realName="conv_reg_357">
+    <nodeIds>41</nodeIds>
+  </regnodes>
+  <regnodes realName="icmp_ln59_reg_246">
+    <nodeIds>18</nodeIds>
+  </regnodes>
+  <regnodes realName="input_signal_load_reg_267">
+    <nodeIds>34</nodeIds>
+  </regnodes>
+  <regnodes realName="bitcast_ln63_1_reg_272">
     <nodeIds>35</nodeIds>
+  </regnodes>
+  <regnodes realName="error_reg_342">
+    <nodeIds>40</nodeIds>
+  </regnodes>
+  <regnodes realName="conv1_reg_285">
+    <nodeIds>43</nodeIds>
+  </regnodes>
+  <regnodes realName="zext_ln61_reg_256">
+    <nodeIds>27</nodeIds>
+  </regnodes>
+  <regnodes realName="weights_load_reg_301">
+    <nodeIds>31</nodeIds>
+  </regnodes>
+  <regnodes realName="mul2_reg_362">
+    <nodeIds>49</nodeIds>
+  </regnodes>
+  <regnodes realName="mul1_reg_347">
+    <nodeIds>47</nodeIds>
+  </regnodes>
+  <regnodes realName="div_reg_332">
+    <nodeIds>45</nodeIds>
+  </regnodes>
+  <regnodes realName="weights_addr_reg_295">
+    <nodeIds>30</nodeIds>
+  </regnodes>
+  <expressionNodes realName="bitcast_ln65_fu_228">
+    <nodeIds>52</nodeIds>
   </expressionNodes>
   <expressionNodes realName="desired_signal_addr_gep_fu_92">
     <nodeIds>37</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="add_ln69_fu_173">
-    <nodeIds>19</nodeIds>
+  <expressionNodes realName="bitcast_ln63_1_fu_215">
+    <nodeIds>35</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="zext_ln71_fu_196">
-    <nodeIds>27</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="bitcast_ln73_fu_222">
-    <nodeIds>32</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="bitcast_ln74_fu_226">
+  <expressionNodes realName="bitcast_ln64_fu_224">
     <nodeIds>39</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln61_fu_205">
+    <nodeIds>54</nodeIds>
   </expressionNodes>
   <expressionNodes realName="i_fu_54">
     <nodeIds>4</nodeIds>
@@ -556,26 +559,29 @@
   <expressionNodes realName="weights_addr_gep_fu_75">
     <nodeIds>30</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="icmp_ln69_fu_167">
-    <nodeIds>18</nodeIds>
+  <expressionNodes realName="zext_ln61_fu_201">
+    <nodeIds>27</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln59_fu_173">
+    <nodeIds>19</nodeIds>
   </expressionNodes>
   <expressionNodes realName="input_signal_addr_gep_fu_62">
     <nodeIds>33</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="icmp_ln71_fu_182">
+  <expressionNodes realName="icmp_ln61_fu_182">
     <nodeIds>25</nodeIds>
   </expressionNodes>
   <expressionNodes realName="indvar_flatten_fu_58">
     <nodeIds>5</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="select_ln69_fu_188">
+  <expressionNodes realName="icmp_ln59_fu_167">
+    <nodeIds>18</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="bitcast_ln63_fu_220">
+    <nodeIds>32</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln59_fu_188">
     <nodeIds>26</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="add_ln71_fu_201">
-    <nodeIds>54</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="bitcast_ln75_fu_230">
-    <nodeIds>52</nodeIds>
   </expressionNodes>
   <moduleNodes realName="grp_fu_109">
     <nodeIds>42</nodeIds>
@@ -616,23 +622,23 @@
   <moduleNodes realName="grp_fu_132">
     <nodeIds>44</nodeIds>
   </moduleNodes>
-  <ioNodes realName="store_ln71_store_fu_207">
+  <ioNodes realName="store_ln61_store_fu_210">
+    <nodeIds>56</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln61_store_fu_196">
     <nodeIds>55</nodeIds>
   </ioNodes>
   <ioNodes realName="indvar_flatten_load_load_fu_164">
     <nodeIds>17</nodeIds>
   </ioNodes>
-  <ioNodes realName="store_ln71_store_fu_212">
-    <nodeIds>56</nodeIds>
+  <ioNodes realName="store_ln59_store_fu_159">
+    <nodeIds>14</nodeIds>
   </ioNodes>
   <ioNodes realName="i_load_load_fu_179">
     <nodeIds>22</nodeIds>
   </ioNodes>
-  <ioNodes realName="store_ln69_store_fu_154">
+  <ioNodes realName="store_ln59_store_fu_154">
     <nodeIds>13</nodeIds>
-  </ioNodes>
-  <ioNodes realName="store_ln69_store_fu_159">
-    <nodeIds>14</nodeIds>
   </ioNodes>
   <memoryPorts dataString="desired_signal">
     <nodeIds>38</nodeIds>
@@ -687,335 +693,344 @@
       <operations id="22" stage="1" latency="1"/>
       <operations id="25" stage="1" latency="1"/>
       <operations id="26" stage="1" latency="1"/>
+      <operations id="55" stage="1" latency="1"/>
+    </states>
+    <states id="2">
       <operations id="27" stage="1" latency="1"/>
       <operations id="33" stage="1" latency="1"/>
       <operations id="34" stage="2" latency="2"/>
       <operations id="54" stage="1" latency="1"/>
-      <operations id="55" stage="1" latency="1"/>
       <operations id="56" stage="1" latency="1"/>
     </states>
-    <states id="2">
+    <states id="3">
       <operations id="34" stage="1" latency="2"/>
     </states>
-    <states id="3">
+    <states id="4">
       <operations id="35" stage="1" latency="1"/>
       <operations id="42" stage="4" latency="4"/>
     </states>
-    <states id="4">
+    <states id="5">
       <operations id="42" stage="3" latency="4"/>
     </states>
-    <states id="5">
+    <states id="6">
       <operations id="42" stage="2" latency="4"/>
     </states>
-    <states id="6">
+    <states id="7">
       <operations id="42" stage="1" latency="4"/>
     </states>
-    <states id="7">
+    <states id="8">
       <operations id="43" stage="2" latency="2"/>
     </states>
-    <states id="8">
+    <states id="9">
       <operations id="43" stage="1" latency="2"/>
     </states>
-    <states id="9">
+    <states id="10">
       <operations id="44" stage="8" latency="8"/>
     </states>
-    <states id="10">
+    <states id="11">
       <operations id="44" stage="7" latency="8"/>
     </states>
-    <states id="11">
+    <states id="12">
       <operations id="44" stage="6" latency="8"/>
     </states>
-    <states id="12">
+    <states id="13">
       <operations id="44" stage="5" latency="8"/>
     </states>
-    <states id="13">
+    <states id="14">
       <operations id="44" stage="4" latency="8"/>
     </states>
-    <states id="14">
+    <states id="15">
       <operations id="44" stage="3" latency="8"/>
     </states>
-    <states id="15">
+    <states id="16">
       <operations id="44" stage="2" latency="8"/>
     </states>
-    <states id="16">
+    <states id="17">
       <operations id="44" stage="1" latency="8"/>
     </states>
-    <states id="17">
+    <states id="18">
       <operations id="45" stage="59" latency="59"/>
     </states>
-    <states id="18">
+    <states id="19">
       <operations id="45" stage="58" latency="59"/>
     </states>
-    <states id="19">
+    <states id="20">
       <operations id="45" stage="57" latency="59"/>
     </states>
-    <states id="20">
+    <states id="21">
       <operations id="45" stage="56" latency="59"/>
     </states>
-    <states id="21">
+    <states id="22">
       <operations id="45" stage="55" latency="59"/>
     </states>
-    <states id="22">
+    <states id="23">
       <operations id="45" stage="54" latency="59"/>
     </states>
-    <states id="23">
+    <states id="24">
       <operations id="45" stage="53" latency="59"/>
     </states>
-    <states id="24">
+    <states id="25">
       <operations id="45" stage="52" latency="59"/>
     </states>
-    <states id="25">
+    <states id="26">
       <operations id="45" stage="51" latency="59"/>
     </states>
-    <states id="26">
+    <states id="27">
       <operations id="45" stage="50" latency="59"/>
     </states>
-    <states id="27">
+    <states id="28">
       <operations id="45" stage="49" latency="59"/>
     </states>
-    <states id="28">
+    <states id="29">
       <operations id="45" stage="48" latency="59"/>
     </states>
-    <states id="29">
+    <states id="30">
       <operations id="45" stage="47" latency="59"/>
     </states>
-    <states id="30">
+    <states id="31">
       <operations id="45" stage="46" latency="59"/>
     </states>
-    <states id="31">
+    <states id="32">
       <operations id="45" stage="45" latency="59"/>
     </states>
-    <states id="32">
+    <states id="33">
       <operations id="45" stage="44" latency="59"/>
     </states>
-    <states id="33">
+    <states id="34">
       <operations id="45" stage="43" latency="59"/>
     </states>
-    <states id="34">
+    <states id="35">
       <operations id="45" stage="42" latency="59"/>
     </states>
-    <states id="35">
+    <states id="36">
       <operations id="45" stage="41" latency="59"/>
     </states>
-    <states id="36">
+    <states id="37">
       <operations id="45" stage="40" latency="59"/>
     </states>
-    <states id="37">
+    <states id="38">
       <operations id="45" stage="39" latency="59"/>
     </states>
-    <states id="38">
+    <states id="39">
       <operations id="45" stage="38" latency="59"/>
     </states>
-    <states id="39">
+    <states id="40">
       <operations id="45" stage="37" latency="59"/>
     </states>
-    <states id="40">
+    <states id="41">
       <operations id="45" stage="36" latency="59"/>
     </states>
-    <states id="41">
+    <states id="42">
       <operations id="45" stage="35" latency="59"/>
     </states>
-    <states id="42">
+    <states id="43">
       <operations id="45" stage="34" latency="59"/>
     </states>
-    <states id="43">
+    <states id="44">
       <operations id="45" stage="33" latency="59"/>
     </states>
-    <states id="44">
+    <states id="45">
       <operations id="45" stage="32" latency="59"/>
     </states>
-    <states id="45">
+    <states id="46">
       <operations id="45" stage="31" latency="59"/>
     </states>
-    <states id="46">
+    <states id="47">
       <operations id="45" stage="30" latency="59"/>
     </states>
-    <states id="47">
+    <states id="48">
       <operations id="45" stage="29" latency="59"/>
     </states>
-    <states id="48">
+    <states id="49">
       <operations id="45" stage="28" latency="59"/>
     </states>
-    <states id="49">
+    <states id="50">
       <operations id="45" stage="27" latency="59"/>
     </states>
-    <states id="50">
+    <states id="51">
       <operations id="45" stage="26" latency="59"/>
     </states>
-    <states id="51">
+    <states id="52">
       <operations id="45" stage="25" latency="59"/>
     </states>
-    <states id="52">
+    <states id="53">
       <operations id="45" stage="24" latency="59"/>
     </states>
-    <states id="53">
+    <states id="54">
       <operations id="45" stage="23" latency="59"/>
     </states>
-    <states id="54">
+    <states id="55">
       <operations id="45" stage="22" latency="59"/>
     </states>
-    <states id="55">
+    <states id="56">
       <operations id="45" stage="21" latency="59"/>
     </states>
-    <states id="56">
+    <states id="57">
       <operations id="45" stage="20" latency="59"/>
     </states>
-    <states id="57">
+    <states id="58">
       <operations id="45" stage="19" latency="59"/>
     </states>
-    <states id="58">
+    <states id="59">
       <operations id="45" stage="18" latency="59"/>
     </states>
-    <states id="59">
+    <states id="60">
       <operations id="45" stage="17" latency="59"/>
     </states>
-    <states id="60">
+    <states id="61">
       <operations id="45" stage="16" latency="59"/>
     </states>
-    <states id="61">
+    <states id="62">
       <operations id="45" stage="15" latency="59"/>
     </states>
-    <states id="62">
+    <states id="63">
       <operations id="45" stage="14" latency="59"/>
     </states>
-    <states id="63">
+    <states id="64">
       <operations id="45" stage="13" latency="59"/>
     </states>
-    <states id="64">
+    <states id="65">
       <operations id="45" stage="12" latency="59"/>
     </states>
-    <states id="65">
+    <states id="66">
       <operations id="45" stage="11" latency="59"/>
     </states>
-    <states id="66">
+    <states id="67">
       <operations id="45" stage="10" latency="59"/>
     </states>
-    <states id="67">
+    <states id="68">
       <operations id="45" stage="9" latency="59"/>
     </states>
-    <states id="68">
+    <states id="69">
       <operations id="30" stage="1" latency="1"/>
       <operations id="31" stage="2" latency="2"/>
       <operations id="45" stage="8" latency="59"/>
     </states>
-    <states id="69">
+    <states id="70">
       <operations id="31" stage="1" latency="2"/>
       <operations id="45" stage="7" latency="59"/>
     </states>
-    <states id="70">
+    <states id="71">
       <operations id="32" stage="1" latency="1"/>
       <operations id="36" stage="4" latency="4"/>
       <operations id="45" stage="6" latency="59"/>
     </states>
-    <states id="71">
+    <states id="72">
       <operations id="36" stage="3" latency="4"/>
       <operations id="45" stage="5" latency="59"/>
     </states>
-    <states id="72">
+    <states id="73">
       <operations id="36" stage="2" latency="4"/>
       <operations id="37" stage="1" latency="1"/>
       <operations id="38" stage="2" latency="2"/>
       <operations id="45" stage="4" latency="59"/>
     </states>
-    <states id="73">
+    <states id="74">
       <operations id="36" stage="1" latency="4"/>
       <operations id="38" stage="1" latency="2"/>
       <operations id="45" stage="3" latency="59"/>
     </states>
-    <states id="74">
+    <states id="75">
       <operations id="39" stage="1" latency="1"/>
-      <operations id="40" stage="7" latency="7"/>
+      <operations id="40" stage="8" latency="8"/>
       <operations id="45" stage="2" latency="59"/>
       <operations id="46" stage="2" latency="2"/>
     </states>
-    <states id="75">
-      <operations id="40" stage="6" latency="7"/>
+    <states id="76">
+      <operations id="40" stage="7" latency="8"/>
       <operations id="45" stage="1" latency="59"/>
       <operations id="46" stage="1" latency="2"/>
     </states>
-    <states id="76">
-      <operations id="40" stage="5" latency="7"/>
-      <operations id="47" stage="7" latency="7"/>
-    </states>
     <states id="77">
-      <operations id="40" stage="4" latency="7"/>
-      <operations id="47" stage="6" latency="7"/>
+      <operations id="40" stage="6" latency="8"/>
+      <operations id="47" stage="8" latency="8"/>
     </states>
     <states id="78">
-      <operations id="40" stage="3" latency="7"/>
-      <operations id="47" stage="5" latency="7"/>
+      <operations id="40" stage="5" latency="8"/>
+      <operations id="47" stage="7" latency="8"/>
     </states>
     <states id="79">
-      <operations id="40" stage="2" latency="7"/>
-      <operations id="47" stage="4" latency="7"/>
+      <operations id="40" stage="4" latency="8"/>
+      <operations id="47" stage="6" latency="8"/>
     </states>
     <states id="80">
-      <operations id="40" stage="1" latency="7"/>
-      <operations id="47" stage="3" latency="7"/>
+      <operations id="40" stage="3" latency="8"/>
+      <operations id="47" stage="5" latency="8"/>
     </states>
     <states id="81">
-      <operations id="47" stage="2" latency="7"/>
-      <operations id="48" stage="2" latency="2"/>
+      <operations id="40" stage="2" latency="8"/>
+      <operations id="47" stage="4" latency="8"/>
     </states>
     <states id="82">
-      <operations id="47" stage="1" latency="7"/>
-      <operations id="48" stage="1" latency="2"/>
+      <operations id="40" stage="1" latency="8"/>
+      <operations id="47" stage="3" latency="8"/>
     </states>
     <states id="83">
-      <operations id="49" stage="7" latency="7"/>
+      <operations id="47" stage="2" latency="8"/>
+      <operations id="48" stage="2" latency="2"/>
     </states>
     <states id="84">
-      <operations id="49" stage="6" latency="7"/>
+      <operations id="47" stage="1" latency="8"/>
+      <operations id="48" stage="1" latency="2"/>
     </states>
     <states id="85">
-      <operations id="49" stage="5" latency="7"/>
+      <operations id="49" stage="8" latency="8"/>
     </states>
     <states id="86">
-      <operations id="49" stage="4" latency="7"/>
+      <operations id="49" stage="7" latency="8"/>
     </states>
     <states id="87">
-      <operations id="49" stage="3" latency="7"/>
+      <operations id="49" stage="6" latency="8"/>
     </states>
     <states id="88">
-      <operations id="41" stage="2" latency="2"/>
-      <operations id="49" stage="2" latency="7"/>
+      <operations id="49" stage="5" latency="8"/>
     </states>
     <states id="89">
-      <operations id="41" stage="1" latency="2"/>
-      <operations id="49" stage="1" latency="7"/>
+      <operations id="49" stage="4" latency="8"/>
     </states>
     <states id="90">
-      <operations id="50" stage="8" latency="8"/>
+      <operations id="49" stage="3" latency="8"/>
     </states>
     <states id="91">
-      <operations id="50" stage="7" latency="8"/>
+      <operations id="41" stage="2" latency="2"/>
+      <operations id="49" stage="2" latency="8"/>
     </states>
     <states id="92">
-      <operations id="50" stage="6" latency="8"/>
+      <operations id="41" stage="1" latency="2"/>
+      <operations id="49" stage="1" latency="8"/>
     </states>
     <states id="93">
-      <operations id="50" stage="5" latency="8"/>
+      <operations id="50" stage="8" latency="8"/>
     </states>
     <states id="94">
-      <operations id="50" stage="4" latency="8"/>
+      <operations id="50" stage="7" latency="8"/>
     </states>
     <states id="95">
-      <operations id="50" stage="3" latency="8"/>
+      <operations id="50" stage="6" latency="8"/>
     </states>
     <states id="96">
-      <operations id="50" stage="2" latency="8"/>
+      <operations id="50" stage="5" latency="8"/>
     </states>
     <states id="97">
-      <operations id="50" stage="1" latency="8"/>
+      <operations id="50" stage="4" latency="8"/>
     </states>
     <states id="98">
-      <operations id="51" stage="2" latency="2"/>
+      <operations id="50" stage="3" latency="8"/>
     </states>
     <states id="99">
+      <operations id="50" stage="2" latency="8"/>
+    </states>
+    <states id="100">
+      <operations id="50" stage="1" latency="8"/>
+    </states>
+    <states id="101">
+      <operations id="51" stage="2" latency="2"/>
+    </states>
+    <states id="102">
       <operations id="51" stage="1" latency="2"/>
       <operations id="59" stage="1" latency="1"/>
     </states>
-    <states id="100">
+    <states id="103">
       <operations id="23" stage="1" latency="1"/>
       <operations id="24" stage="1" latency="1"/>
       <operations id="28" stage="1" latency="1"/>
@@ -1318,12 +1333,21 @@
     <transitions inState="99" outState="100">
       <condition id="-1"/>
     </transitions>
+    <transitions inState="100" outState="101">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="101" outState="102">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="102" outState="103">
+      <condition id="-1"/>
+    </transitions>
     <transitions inState="1" outState="2">
       <condition id="-1"/>
     </transitions>
   </fsm>
   <CFGRegionsRoot>
-    <cfgRegions mId="1" mTag="nlms_top" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="1380" mMaxLatency="1380">
+    <cfgRegions mId="1" mTag="nlms_top" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="1383" mMaxLatency="1383">
       <subRegions>2</subRegions>
       <subRegions>3</subRegions>
       <subRegions>4</subRegions>
@@ -1333,7 +1357,7 @@
       <basicBlocks>16</basicBlocks>
       <mDfPipe/>
     </cfgRegions>
-    <cfgRegions mId="3" mTag="nlms_outer_loop_nlms_inner_loop" mII="1" mDepth="100" mMinTripCount="1280" mMaxTripCount="1280" mMinLatency="1378" mMaxLatency="1378" mType="1">
+    <cfgRegions mId="3" mTag="nlms_outer_loop_nlms_inner_loop" mII="1" mDepth="103" mMinTripCount="1280" mMaxTripCount="1280" mMinLatency="1381" mMaxLatency="1381" mType="1">
       <basicBlocks>21</basicBlocks>
       <basicBlocks>58</basicBlocks>
       <mDfPipe/>

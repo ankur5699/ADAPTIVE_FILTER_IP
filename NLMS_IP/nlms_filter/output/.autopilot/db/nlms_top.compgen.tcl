@@ -1,8 +1,8 @@
 # This script segment is generated automatically by AutoPilot
 
-set name nlms_top_fsub_32ns_32ns_32_7_full_dsp_1
+set name nlms_top_fsub_32ns_32ns_32_8_full_dsp_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {fsub} IMPL {fulldsp} LATENCY 6 ALLOW_PRAGMA 1
+	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {fsub} IMPL {fulldsp} LATENCY 7 ALLOW_PRAGMA 1
 }
 
 
@@ -30,9 +30,9 @@ if {${::AESL::PGuard_rtl_comp_handler}} {
 }
 
 
-set name nlms_top_dmul_64ns_64ns_64_7_max_dsp_1
+set name nlms_top_dmul_64ns_64ns_64_8_max_dsp_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {dmul} IMPL {maxdsp} LATENCY 6 ALLOW_PRAGMA 1
+	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {dmul} IMPL {maxdsp} LATENCY 7 ALLOW_PRAGMA 1
 }
 
 

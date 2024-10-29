@@ -8,7 +8,7 @@
     <synthesis askAgain="true"/>
     <config/>
     <UIConfigurations>
-        <UIAutosynConf boardInfo="Kria KR260 Robotics Starter Kit SOM (xck26-sfvc784-2LV-c) " hideTrivialOp="true" isBasedOnBoard="false" isSolutionDirty="true" isStopAskAgain="false" showDetailDesignViewer="false">
+        <UIAutosynConf boardInfo="Kria KR260 Robotics Starter Kit SOM (xck26-sfvc784-2LV-c) " hideTrivialOp="true" isBasedOnBoard="false" isSolutionDirty="false" isStopAskAgain="false" showDetailDesignViewer="false">
             <Platform>xilinx/spartan7/spartan7</Platform>
             <Platform>xilinx/spartan7/spartan7_fpv6</Platform>
             <customLibs/>
@@ -68,7 +68,7 @@
         <library value="xilinx/spartan7/spartan7" name="DefaultPlatform"/>
     </libraryList>
     <clockList>
-        <clock name="default" default="false" period="10"/>
+        <clock name="default" default="false" period="8"/>
     </clockList>
 </solution>
 

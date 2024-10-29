@@ -30,7 +30,7 @@ NOISY_CHANNEL = True
 IMPROVISE_ADAPT_OVERCOME = True
 
 # Filter properties
-N = 10
+N = 128
 u = 1.2
 eps = 1
 sampling_freq = 44.1 * 1000
@@ -39,13 +39,15 @@ sampling_freq = 44.1 * 1000
 SNR_dB = -50
 
 # Signal properties
-NUM_SAMPLES = 100
+NUM_SAMPLES = 128
 signal_freq = 1.5 * 1000
 w = 2 * np.pi * signal_freq
 t = np.linspace(0.0, NUM_SAMPLES/sampling_freq, NUM_SAMPLES)
 s = np.sin(w*t)
-CHANNEL_PROPERTIES = np.random.normal(0, 1.0, NUM_SAMPLES)
+# CHANNEL_PROPERTIES = np.random.normal(0, 1.0, NUM_SAMPLES)
+from Filter_values import High_pass_filter
 
+CHANNEL_PROPERTIES = High_pass_filter
 # Convert SNR from dB to linear scale
 SNR_linear = 10**(SNR_dB / 10)
 SIGNAL_POWER = np.sum(s*s)/NUM_SAMPLES
@@ -58,7 +60,7 @@ if NOISY_CHANNEL:
 
 # let noise be reduced by 3dB when recieved in mic that is isolated from signal
     if IMPROVISE_ADAPT_OVERCOME:
-        w = adapt(ref_noise, noise, u, 5, 'NLMS')
+        w = adapt(ref_noise, noise, u, N, 'NLMS')
         s_red = sig - w * ref_noise
 
 
